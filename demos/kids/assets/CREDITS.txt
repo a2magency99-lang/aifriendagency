@@ -1,0 +1,17 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/). Resized/compressed for this demo.
+
+babyset.jpg: https://www.pexels.com/photo/close-up-of-baby-clothes-in-neutral-colors-16681603/
+bear.jpg: https://www.pexels.com/photo/adorable-brown-and-red-plush-teddy-bear-toy-35579568/
+blocks.jpg: https://www.pexels.com/photo/photo-of-toy-blocks-4491703/
+bluecar.jpg: https://www.pexels.com/photo/a-blue-miniature-toy-car-on-pink-background-10215981/
+clothes.jpg: https://www.pexels.com/photo/black-and-white-striped-baby-outfit-flat-lay-34121887/
+hero.jpg: https://www.pexels.com/photo/a-colorful-stack-toy-6219106/
+horse.jpg: https://www.pexels.com/photo/wooden-rocking-horse-7938001/
+pinkcar.jpg: https://www.pexels.com/photo/pink-toy-car-on-pink-background-10216079/
+puzzle.jpg: https://www.pexels.com/photo/colorful-puzzle-pieces-8385973/
+rainbowbox.jpg: https://www.pexels.com/photo/wooden-rainbow-toy-in-brown-cardboard-box-6219059/
+room.jpg: https://www.pexels.com/photo/orange-walls-in-bedroom-17495865/
+shoes.jpg: https://www.pexels.com/photo/photo-of-baby-clothes-near-flowers-4858394/
+sorter.jpg: https://www.pexels.com/photo/colorful-montessori-wooden-stacking-toy-35579565/
+stacker.jpg: https://www.pexels.com/photo/simple-conical-toy-with-wooden-rings-9271758/
+teddy.jpg: https://www.pexels.com/photo/plush-teddy-bear-with-blue-bow-tie-and-hat-38807149/

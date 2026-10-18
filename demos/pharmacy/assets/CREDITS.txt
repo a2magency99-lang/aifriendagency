@@ -1,0 +1,11 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/). Resized/compressed for this demo.
+
+amber.jpg: https://www.pexels.com/photo/bottles-of-cosmetic-products-placed-on-white-table-6621472/
+capsules.jpg: https://www.pexels.com/photo/flat-lay-of-fish-oil-gold-capsule-on-background-food-supplement-vitamin-d-vitamin-e-omega-3-16776311/
+dropper.jpg: https://www.pexels.com/photo/close-up-of-dropper-with-amber-bottle-35874415/
+hero.jpg: https://www.pexels.com/photo/brown-dropper-bottle-on-glass-surface-35899861/
+minimal.jpg: https://www.pexels.com/photo/bottles-and-jars-of-skincare-products-on-table-7321507/
+omega.jpg: https://www.pexels.com/photo/a-close-up-of-softgel-capsules-13534590/
+pump.jpg: https://www.pexels.com/photo/pump-bottles-with-skincare-products-16378446/
+serumdark.jpg: https://www.pexels.com/photo/serum-bottle-with-dropper-12563412/
+sunscreen.jpg: https://www.pexels.com/photo/tubes-of-sunscreen-cream-18186034/

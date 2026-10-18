@@ -1,0 +1,13 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/). Resized/compressed for this demo.
+
+bangle.jpg: https://www.pexels.com/photo/gold-bracelet-with-diamonds-on-white-textile-12194317/
+bridal.jpg: https://www.pexels.com/photo/elegant-gold-necklace-on-display-mannequin-28976815/
+chain.jpg: https://www.pexels.com/photo/golden-jewelry-on-black-background-15967464/
+earrings.jpg: https://www.pexels.com/photo/elegant-gold-earrings-on-slice-of-agate-32797484/
+giftbox.jpg: https://www.pexels.com/photo/elegant-red-ring-box-on-wooden-tabletop-30698993/
+hero.jpg: https://www.pexels.com/photo/golden-jewelry-on-black-background-24815712/
+necklace.jpg: https://www.pexels.com/photo/golden-jewelry-on-black-background-24815712/
+pendant.jpg: https://www.pexels.com/photo/a-close-up-shot-of-a-gold-necklace-12145316/
+rings.jpg: https://www.pexels.com/photo/gold-rings-in-close-up-photography-5737277/
+stackring.jpg: https://www.pexels.com/photo/elegant-gold-bracelet-on-reflective-surface-38827908/
+starearrings.jpg: https://www.pexels.com/photo/elegant-star-shaped-gold-earrings-for-fashion-jewelry-29193421/

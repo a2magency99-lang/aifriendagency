@@ -1,0 +1,13 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/). Resized/compressed for this demo.
+
+classic.jpg: https://www.pexels.com/photo/luxurious-modern-villa-exterior-with-arched-windows-39011061/
+crane.jpg: https://www.pexels.com/photo/construction-site-featuring-tower-crane-in-izmir-38450267/
+dining.jpg: https://www.pexels.com/photo/furniture-in-a-luxury-living-room-18285938/
+hero.jpg: https://www.pexels.com/photo/exterior-of-a-modern-villa-13752348/
+interior1.jpg: https://www.pexels.com/photo/modern-elegant-living-room-interior-design-39828914/
+interior2.jpg: https://www.pexels.com/photo/modern-living-room-with-elegant-interior-design-39733030/
+scaffold.jpg: https://www.pexels.com/photo/construction-crane-on-a-building-site-5505125/
+tower.jpg: https://www.pexels.com/photo/modern-building-under-construction-by-lake-40246828/
+villa1.jpg: https://www.pexels.com/photo/modern-residential-villa-with-minimalist-design-34188582/
+villa2.jpg: https://www.pexels.com/photo/modern-luxury-house-with-spacious-garage-entrance-34188579/
+villa3.jpg: https://www.pexels.com/photo/modern-luxury-house-at-night-with-lights-31737860/

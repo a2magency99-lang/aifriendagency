@@ -1,0 +1,18 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/), downloaded and compressed locally.
+
+hero.jpg  https://www.pexels.com/photo/36068865/
+phone1.jpg  https://www.pexels.com/photo/20360348/
+phone2.jpg  https://www.pexels.com/photo/21424626/
+phone3.jpg  https://www.pexels.com/photo/20360364/
+buds1.jpg  https://www.pexels.com/photo/36625733/
+buds2.jpg  https://www.pexels.com/photo/33242733/
+watch1.jpg  https://www.pexels.com/photo/14979022/
+watch2.jpg  https://www.pexels.com/photo/37735305/
+head1.jpg  https://www.pexels.com/photo/16168353/
+head2.jpg  https://www.pexels.com/photo/18441496/
+gaming.jpg  https://www.pexels.com/photo/28993064/
+laptop.jpg  https://www.pexels.com/photo/35471391/
+laptop2.jpg  https://www.pexels.com/photo/8092404/
+power.jpg  https://www.pexels.com/photo/4072683/
+
+Fonts: Google Fonts (SIL Open Font License), self-hosted in assets/fonts/.
