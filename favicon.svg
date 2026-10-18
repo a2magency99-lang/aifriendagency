@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI Friend Agency">
+  <defs>
+    <linearGradient id="afg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18B6C9"/><stop offset="1" stop-color="#0A84D0"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="10" width="56" height="48" rx="16" fill="url(#afg)"/>
+  <path d="M18 58 L14 64 L26 58 Z" fill="#0A84D0"/>
+  <rect x="14" y="22" width="36" height="22" rx="11" fill="#0B1A2E"/>
+  <circle cx="25" cy="33" r="4" fill="#5FE3F0"/>
+  <circle cx="39" cy="33" r="4" fill="#5FE3F0"/>
+  <path d="M27 49 Q32 53 37 49" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <line x1="32" y1="10" x2="32" y2="4" stroke="#18B6C9" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="4" r="4" fill="#F58200"/>
+</svg>
