@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>توتا | Toota Kids — ألعاب ومستلزمات أطفال في السعودية</title>
+<meta name="description" content="توتا: ألعاب تعليمية وخشبية، ملابس مواليد ومستلزمات أطفال حسب العمر، توصيل لكل مدن المملكة ودفع بتابي وتمارا. نموذج تجريبي من تصميم AI Friend Agency.">
+<meta name="theme-color" content="#ff6b5b">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fff8ee;--coral:#ff6b5b;--sun:#ffc531;--sky:#4cb8f5;--mint:#2fc79a;--grape:#9b7bf7;--ink:#2b2a4c;--soft:#6c6a8a;--r:26px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.wrap{width:min(1200px,100% - 36px);margin-inline:auto}
+:focus-visible{outline:3px solid var(--sky);outline-offset:3px;border-radius:8px}
+.bar{background:var(--ink);color:#fff;font-size:.85rem;text-align:center;padding:.45rem 1rem;font-weight:600}
+.bar b{color:var(--sun)}
+header{background:#fff;position:sticky;top:0;z-index:40;box-shadow:0 2px 0 #f1e7d8}
+.nav{display:flex;align-items:center;gap:1.2rem;height:76px}
+.logo{display:flex;align-items:center;gap:.55rem;font-weight:900;font-size:1.6rem;line-height:1}
+.logo .m{width:46px;height:46px}
+.logo small{display:block;font-size:.72rem;font-weight:700;color:var(--coral);letter-spacing:.06em}
+.search{flex:1;display:flex;align-items:center;background:var(--cream);border:2px solid #f1e3cf;border-radius:40px;padding:.2rem .4rem .2rem 1rem;max-width:460px;margin-inline-start:auto}
+.search input{border:0;background:none;flex:1;font:inherit;padding:.45rem .8rem;color:var(--ink);min-width:0}
+.search button{background:var(--coral);color:#fff;border:0;border-radius:30px;padding:.4rem 1rem;font-weight:700}
+.navicons{display:flex;gap:.5rem}
+.ni{width:46px;height:46px;border-radius:50%;background:var(--cream);display:grid;place-items:center;position:relative;border:0}
+.ni svg{width:22px;height:22px}
+.ni .n{position:absolute;top:-2px;left:-2px;background:var(--coral);color:#fff;font-size:.72rem;font-weight:800;min-width:20px;height:20px;border-radius:10px;display:grid;place-items:center}
+.menu{display:flex;gap:1.6rem;font-weight:700;font-size:.95rem;padding:.2rem 0 .8rem;overflow-x:auto;scrollbar-width:none}
+.menu a{white-space:nowrap}
+.menu a:hover{color:var(--coral)}
+.menu .hot{color:var(--coral)}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:3.5rem 0 4.5rem}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:2.5rem;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:.4rem;background:#fff;border:2px dashed var(--sun);padding:.3rem .9rem;border-radius:30px;font-weight:700;font-size:.9rem}
+.hero h1{font-weight:900;font-size:clamp(2.2rem,5.6vw,3.9rem);line-height:1.2;margin:1rem 0}
+.hero h1 .c{color:var(--coral)} .hero h1 .s{color:var(--sky)}
+.hero h1 .u{background:linear-gradient(transparent 62%,var(--sun) 62%)}
+.hero p{font-size:1.12rem;color:var(--soft);max-width:480px}
+.ctas{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.8rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.7rem;border-radius:40px;font-weight:800;border:0;font-size:1rem;transition:.2s;box-shadow:0 5px 0 rgba(0,0,0,.14)}
+.btn:hover{transform:translateY(-2px)}
+.btn.c{background:var(--coral);color:#fff}
+.btn.w{background:#fff;color:var(--ink);border:2px solid var(--ink);box-shadow:0 5px 0 var(--ink)}
+.btn.g{background:#25d366;color:#fff}
+.btn svg{width:20px;height:20px}
+.ticks{display:flex;gap:1.2rem;margin-top:1.8rem;flex-wrap:wrap;font-weight:700;font-size:.9rem}
+.ticks span::before{content:"✓";display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--mint);color:#fff;font-size:.75rem;margin-inline-end:.4rem}
+.art{position:relative;aspect-ratio:1/1;max-width:520px;justify-self:center;width:100%}
+.blob{position:absolute;inset:6%;border-radius:58% 42% 52% 48%/48% 56% 44% 52%;overflow:hidden;background:var(--sky);box-shadow:0 18px 0 rgba(43,42,76,.08)}
+.blob img{width:100%;height:100%;object-fit:cover}
+.sticker{position:absolute;background:#fff;border-radius:20px;padding:.6rem .9rem;font-weight:800;box-shadow:0 8px 24px rgba(43,42,76,.14);font-size:.92rem;line-height:1.3}
+.st1{top:4%;left:0;transform:rotate(-6deg)} .st1 b{color:var(--coral);font-size:1.35rem;display:block}
+.st2{bottom:6%;right:-2%;transform:rotate(5deg);display:flex;align-items:center;gap:.5rem}
+.st2 i{width:34px;height:34px;border-radius:50%;background:var(--sun);display:grid;place-items:center;font-style:normal}
+.dots{position:absolute;width:120px;height:120px;background-image:radial-gradient(var(--sun) 3px,transparent 3.5px);background-size:18px 18px;opacity:.7;z-index:0}
+.shape{position:absolute;z-index:0}
+.wave{display:block;width:100%;height:46px}
+section{padding:4.5rem 0}
+.sh{text-align:center;margin-bottom:2.4rem}
+.sh .k{color:var(--coral);font-weight:800;font-size:.95rem}
+.sh h2{font-weight:900;font-size:clamp(1.7rem,4.5vw,2.5rem);line-height:1.3}
+.sh p{color:var(--soft);margin-top:.3rem}
+/* ages */
+.ages{background:#fff}
+.agrid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.ag{border-radius:var(--r);padding:1.4rem 1rem 1.2rem;text-align:center;color:var(--ink);transition:.25s;display:flex;flex-direction:column;align-items:center;gap:.4rem;border:3px solid transparent}
+.ag:hover{transform:translateY(-6px) rotate(-1deg);border-color:var(--ink)}
+.ag .ico{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 6px 0 rgba(0,0,0,.08)}
+.ag .ico svg{width:50px;height:50px}
+.ag b{font-size:1.15rem;font-weight:900}
+.ag span{font-size:.85rem;font-weight:600;opacity:.8}
+/* cats */
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cat{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;display:flex;align-items:flex-end}
+.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.cat:hover img{transform:scale(1.07)}
+.cat .lb{position:relative;margin:14px;background:#fff;border-radius:18px;padding:.55rem 1rem;font-weight:800;display:flex;align-items:center;gap:.6rem;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.cat .lb i{font-style:normal;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:.9rem}
+/* offer */
+.offer{padding:0}
+.ob{background:var(--coral);border-radius:36px;color:#fff;display:grid;grid-template-columns:1.2fr 1fr;align-items:center;overflow:hidden;position:relative}
+.ob .tx{padding:3rem 3rem}
+.ob h2{font-weight:900;font-size:clamp(1.8rem,4.6vw,2.9rem);line-height:1.2}
+.ob h2 span{color:var(--sun)}
+.ob p{opacity:.92;margin:.6rem 0 1.4rem;font-weight:600}
+.cd{display:flex;gap:.6rem;margin-bottom:1.6rem}
+.cd div{background:#fff;color:var(--ink);border-radius:16px;min-width:66px;padding:.4rem .5rem;text-align:center}
+.cd b{display:block;font-size:1.6rem;font-weight:900;line-height:1.2}
+.cd small{font-size:.75rem;font-weight:700;color:var(--soft)}
+.ob .im{height:100%;min-height:340px;position:relative}
+.ob .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ob .burst{position:absolute;top:18px;left:18px;width:110px;height:110px;background:var(--sun);color:var(--ink);display:grid;place-items:center;text-align:center;font-weight:900;line-height:1.1;clip-path:polygon(50% 0,61% 13%,77% 6%,79% 23%,95% 25%,88% 40%,100% 52%,87% 62%,93% 78%,76% 80%,72% 96%,57% 89%,45% 100%,36% 86%,20% 93%,19% 76%,3% 72%,11% 58%,0 46%,13% 36%,6% 21%,23% 20%,26% 4%,40% 12%);z-index:2}
+/* products */
+.tabs{display:flex;gap:.5rem;justify-content:center;margin-bottom:2rem;flex-wrap:wrap}
+.tab{border:2px solid var(--ink);background:#fff;border-radius:30px;padding:.45rem 1.2rem;font-weight:800;color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--ink);color:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.pc{background:#fff;border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 0 #f1e3cf;transition:.2s}
+.pc:hover{transform:translateY(-4px)}
+.pc.hide{display:none}
+.pim{position:relative;aspect-ratio:1/1;background:#f6efe4}
+.pim img{width:100%;height:100%;object-fit:cover}
+.tag{position:absolute;top:12px;right:12px;background:var(--sun);font-weight:800;font-size:.78rem;padding:.15rem .65rem;border-radius:20px}
+.fav{position:absolute;top:10px;left:10px;width:36px;height:36px;border-radius:50%;border:0;background:#fff;font-size:1.1rem;color:var(--coral)}
+.fav.on{background:var(--coral);color:#fff}
+.pb{padding:.9rem 1rem 1.1rem;display:flex;flex-direction:column;gap:.25rem;flex:1}
+.age{align-self:flex-start;background:#e9f6fe;color:#1b7fb8;font-weight:800;font-size:.75rem;padding:.05rem .6rem;border-radius:12px}
+.pb h3{font-size:1rem;font-weight:800;line-height:1.45}
+.pr{display:flex;gap:.6rem;align-items:baseline;margin-top:auto;padding-top:.3rem}
+.pr b{font-size:1.2rem;font-weight:900;color:var(--coral)}
+.pr small{font-size:.75rem}
+.pr s{color:#a9a6bd;font-size:.85rem}
+.addc{margin-top:.6rem;border:0;background:var(--cream);border-radius:14px;padding:.55rem;font-weight:800;color:var(--ink);transition:.2s}
+.addc:hover,.addc.ok{background:var(--mint);color:#fff}
+.pay{display:flex;justify-content:center;gap:.5rem;flex-wrap:wrap;margin-top:2rem;align-items:center;font-weight:700;color:var(--soft);font-size:.9rem}
+.pay span.b{background:#fff;border:2px solid #f1e3cf;border-radius:10px;padding:.2rem .7rem;color:var(--ink);font-weight:800;font-size:.82rem}
+/* gift finder */
+.gift{background:var(--sky);color:#fff;border-radius:36px;padding:3rem;display:grid;grid-template-columns:1fr 1.1fr;gap:2rem;align-items:center;position:relative;overflow:hidden}
+.gift h2{font-weight:900;font-size:clamp(1.7rem,4.4vw,2.5rem);line-height:1.25}
+.gift p{font-weight:600;opacity:.95;margin-top:.5rem}
+.gform{background:#fff;color:var(--ink);border-radius:26px;padding:1.6rem;display:grid;gap:1rem}
+.gform label{font-weight:800;font-size:.95rem;display:block;margin-bottom:.4rem}
+.opts{display:flex;gap:.4rem;flex-wrap:wrap}
+.opt{border:2px solid #e7e3f3;background:#fff;border-radius:20px;padding:.3rem .8rem;font-weight:700;font-size:.88rem;color:var(--ink)}
+.opt[aria-pressed="true"]{border-color:var(--coral);background:#fff1ef;color:var(--coral)}
+/* trust */
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.tr{background:#fff;border-radius:var(--r);padding:1.5rem;display:flex;gap:1rem;align-items:flex-start}
+.tr i{flex:none;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-style:normal;font-size:1.5rem}
+.tr b{display:block;font-weight:900}
+.tr span{font-size:.88rem;color:var(--soft)}
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rv{background:#fff;border-radius:var(--r);padding:1.5rem;position:relative}
+.rv::before{content:"“";position:absolute;top:-10px;left:20px;font-size:4rem;color:var(--sun);font-weight:900;line-height:1}
+.rv .st{color:var(--sun);letter-spacing:.15em}
+.rv p{margin:.4rem 0;font-weight:600}
+.rv small{color:var(--soft);font-weight:700}
+.note{text-align:center;font-size:.78rem;color:var(--soft);margin-top:1rem}
+footer{background:var(--ink);color:#d8d6ee;padding:3.5rem 0 6rem;margin-top:2rem}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2rem}
+footer h4{color:#fff;font-weight:800;margin-bottom:.7rem}
+footer ul{list-style:none;display:grid;gap:.35rem;font-size:.92rem}
+footer a:hover{color:var(--sun)}
+.soc{display:flex;gap:.5rem;margin-top:1rem;flex-wrap:wrap}
+.soc a{background:rgba(255,255,255,.1);border-radius:20px;padding:.25rem .8rem;font-size:.82rem;font-weight:700}
+.fb{border-top:1px solid rgba(255,255,255,.12);margin-top:2.4rem;padding-top:1.2rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem;font-size:.82rem}
+.agency{opacity:.75}
+.waf{position:fixed;bottom:18px;left:18px;z-index:50;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.waf svg{width:30px;height:30px}
+.toast{position:fixed;bottom:90px;left:50%;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:.6rem 1.2rem;border-radius:30px;font-weight:800;opacity:0;transition:.3s;z-index:60;pointer-events:none}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media (max-width:980px){
+ .hero .wrap,.ob,.gift{grid-template-columns:1fr}
+ .agrid{grid-template-columns:repeat(3,1fr)}
+ .cgrid,.pgrid{grid-template-columns:repeat(2,1fr)}
+ .trust{grid-template-columns:1fr 1fr}
+ .revs{grid-template-columns:1fr}
+ .fg{grid-template-columns:1fr 1fr}
+ .ob .im{min-height:260px}
+}
+@media (max-width:640px){
+ .nav{height:64px;gap:.6rem}
+ .search{display:none}
+ .navicons{margin-inline-start:auto}
+ .ni{width:42px;height:42px}
+ .logo{font-size:1.35rem} .logo .m{width:40px;height:40px}
+ .hero{padding:2rem 0 3rem}
+ .hero .wrap{gap:1.6rem}
+ .art{max-width:270px;order:-1}
+ .bar{font-size:.76rem}
+ .st1{font-size:.8rem;padding:.45rem .7rem} .st1 b{font-size:1.1rem} .st2{font-size:.8rem}
+ .st1{left:-2%} .st2{right:-4%}
+ .ticks{gap:.7rem;font-size:.85rem}
+ section{padding:3.2rem 0}
+ .agrid{grid-template-columns:repeat(3,1fr);gap:10px}
+ .ag{padding:1rem .4rem;gap:.2rem}
+ .ag .ico{width:62px;height:62px} .ag .ico svg{width:38px;height:38px}
+ .ag b{font-size:.98rem} .ag span{font-size:.74rem}
+ .cgrid,.pgrid{gap:12px}
+ .cat .lb{margin:8px;padding:.4rem .6rem;font-size:.85rem;gap:.4rem}
+ .cat .lb i{width:22px;height:22px;font-size:.7rem}
+ .ob .tx{padding:2rem 1.4rem}
+ .cd div{min-width:58px}
+ .pb{padding:.7rem .7rem .9rem}
+ .pb h3{font-size:.88rem}
+ .pr b{font-size:1.05rem}
+ .gift{padding:1.8rem 1.2rem}
+ .trust{grid-template-columns:1fr}
+ .fg{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="bar">🚚 توصيل مجاني للطلبات فوق <b>199 ر.س</b> · تغليف هدايا مجاني 🎁</div>
+<header>
+ <div class="wrap">
+  <div class="nav">
+   <a href="#" class="logo" aria-label="توتا">
+    <svg class="m" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3c9 0 13 4 17 9s5 12 2 19-10 13-19 13S8 40 5 32 3 17 8 11 15 3 24 3Z" fill="#ff6b5b"/><circle cx="17" cy="21" r="3.2" fill="#fff"/><circle cx="31" cy="21" r="3.2" fill="#fff"/><circle cx="17.6" cy="21.6" r="1.5" fill="#2b2a4c"/><circle cx="31.6" cy="21.6" r="1.5" fill="#2b2a4c"/><path d="M17 30c4 4 10 4 14 0" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/><circle cx="38" cy="8" r="5" fill="#ffc531"/></svg>
+    <span>توتا<small>TOOTA KIDS</small></span>
+   </a>
+   <form class="search" role="search" onsubmit="return false"><input type="search" placeholder="ابحث عن لعبة، عمر، أو ماركة…" aria-label="بحث"><button type="submit">بحث</button></form>
+   <div class="navicons">
+    <a class="ni" href="#products" aria-label="المفضلة"><svg viewBox="0 0 24 24" fill="none" stroke="#2b2a4c" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg></a>
+    <a class="ni" href="#products" aria-label="السلة"><svg viewBox="0 0 24 24" fill="none" stroke="#2b2a4c" stroke-width="2"><path d="M4 5h2l2 11h10l2-8H7"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg><span class="n" id="cnt">0</span></a>
+   </div>
+  </div>
+  <nav class="menu" aria-label="الأقسام"><a href="#ages">تسوّق حسب العمر</a><a href="#cats">الألعاب التعليمية</a><a href="#cats">ألعاب خشبية</a><a href="#cats">ملابس المواليد</a><a href="#cats">غرف الأطفال</a><a href="#gift">الهدايا</a><a class="hot" href="#offer">العروض 🔥</a></nav>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="dots" style="top:30px;right:2%"></div>
+ <svg class="shape" style="bottom:40px;right:44%;width:46px" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l5 12 13 1-10 8 3 13-11-7-11 7 3-13L2 15l13-1Z" fill="#ffc531"/></svg>
+ <div class="wrap">
+  <div>
+   <span class="pill">✨ تشكيلة الشتاء وصلت</span>
+   <h1>عالم <span class="c">مرح</span> و<span class="s">آمن</span><br><span class="u">لصغارك</span> كل يوم</h1>
+   <p>ألعاب تعليمية وخشبية، ملابس مواليد ناعمة، ومستلزمات مختارة بعناية لكل عمر — توصل لباب بيتك في كل مدن المملكة.</p>
+   <div class="ctas">
+    <a class="btn c" href="#products">تسوّق الآن</a>
+    <a class="btn g" href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%AA%D9%88%D8%AA%D8%A7%D8%8C%20%D8%A3%D8%A8%D9%8A%20%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9%20%D9%81%D9%8A%20%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%20%D9%84%D8%B9%D8%A8%D8%A9" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg> اطلب بالواتساب</a>
+   </div>
+   <div class="ticks"><span>مواد آمنة للأطفال</span><span>توصيل 1–3 أيام</span><span>استرجاع 14 يوم</span></div>
+  </div>
+  <div class="art">
+   <div class="blob"><img src="assets/hero.jpg" alt="لعبة قوس قزح خشبية ملونة" fetchpriority="high"></div>
+   <div class="sticker st1"><b>خصم 30%</b>على الألعاب<br>الخشبية</div>
+   <div class="sticker st2"><i>⭐</i><span>اختيار الأمهات<br><small style="font-weight:600;color:#6c6a8a">الأكثر طلبًا هذا الشهر</small></span></div>
+  </div>
+ </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1440 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 46V20c120-26 240-26 360 0s240 26 360 0 240-26 360 0 240 26 360 0v26Z" fill="#fff"/></svg>
+<section class="ages" id="ages" style="padding-top:2.5rem">
+ <div class="wrap">
+  <div class="sh"><span class="k">تسوّق حسب العمر</span><h2>كل مرحلة لها ألعابها 🎈</h2><p>اختر عمر طفلك ونعرض لك الأنسب لنموّه ومهاراته</p></div>
+  <div class="agrid">
+   <a class="ag" href="#products" style="background:#ffe3df"><span class="ico"><svg viewBox="0 0 50 50"><circle cx="25" cy="27" r="15" fill="#ffd2c9"/><circle cx="20" cy="25" r="2" fill="#2b2a4c"/><circle cx="30" cy="25" r="2" fill="#2b2a4c"/><path d="M21 32c2.5 2 5.5 2 8 0" stroke="#2b2a4c" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M25 12c3 0 4 3 2 4" stroke="#ff6b5b" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></span><b>0–12 شهر</b><span>الرضّع</span></a>
+   <a class="ag" href="#products" style="background:#fff1c7"><span class="ico"><svg viewBox="0 0 50 50"><rect x="9" y="22" width="14" height="14" rx="3" fill="#ff6b5b"/><rect x="27" y="22" width="14" height="14" rx="3" fill="#4cb8f5"/><rect x="18" y="8" width="14" height="14" rx="3" fill="#ffc531"/><text x="25" y="19" font-size="9" font-weight="900" text-anchor="middle" fill="#2b2a4c">أ</text></svg></span><b>1–3 سنوات</b><span>الخطوات الأولى</span></a>
+   <a class="ag" href="#products" style="background:#dff3fd"><span class="ico"><svg viewBox="0 0 50 50"><path d="M8 34h34l-3-9H11Z" fill="#4cb8f5"/><rect x="15" y="17" width="18" height="9" rx="3" fill="#9fdcff"/><circle cx="15" cy="35" r="5" fill="#2b2a4c"/><circle cx="35" cy="35" r="5" fill="#2b2a4c"/></svg></span><b>3–5 سنوات</b><span>الاكتشاف واللعب</span></a>
+   <a class="ag" href="#products" style="background:#dcf6ec"><span class="ico"><svg viewBox="0 0 50 50"><path d="M10 38 25 10l15 28Z" fill="#2fc79a"/><circle cx="25" cy="28" r="5" fill="#fff"/><path d="M25 10v-3" stroke="#ff6b5b" stroke-width="3" stroke-linecap="round"/></svg></span><b>6–8 سنوات</b><span>التعلّم والإبداع</span></a>
+   <a class="ag" href="#products" style="background:#ece6ff"><span class="ico"><svg viewBox="0 0 50 50"><rect x="10" y="12" width="30" height="22" rx="4" fill="#9b7bf7"/><rect x="14" y="16" width="22" height="14" rx="2" fill="#e5dcff"/><rect x="20" y="36" width="10" height="3" rx="1.5" fill="#2b2a4c"/><path d="m22 20 7 3-7 3Z" fill="#9b7bf7"/></svg></span><b>+9 سنوات</b><span>العلوم والتحدّي</span></a>
+  </div>
+ </div>
+</section>
+<svg class="wave" viewBox="0 0 1440 46" preserveAspectRatio="none" aria-hidden="true" style="transform:scaleY(-1)"><path d="M0 46V20c120-26 240-26 360 0s240 26 360 0 240-26 360 0 240 26 360 0v26Z" fill="#fff"/></svg>
+
+<section id="cats">
+ <div class="wrap">
+  <div class="sh"><span class="k">الأقسام</span><h2>اكتشف أقسام توتا</h2></div>
+  <div class="cgrid">
+   <a class="cat" href="#products"><img src="assets/sorter.jpg" alt="ألعاب تعليمية" loading="lazy"><span class="lb"><i style="background:var(--coral)">١</i>ألعاب تعليمية</span></a>
+   <a class="cat" href="#products"><img src="assets/stacker.jpg" alt="ألعاب خشبية" loading="lazy" style="object-position:50% 60%"><span class="lb"><i style="background:var(--sun)">٢</i>ألعاب خشبية</span></a>
+   <a class="cat" href="#products"><img src="assets/bear.jpg" alt="دمى ومحشوات" loading="lazy"><span class="lb"><i style="background:var(--sky)">٣</i>دمى ومحشوات</span></a>
+   <a class="cat" href="#products"><img src="assets/pinkcar.jpg" alt="سيارات وألعاب حركة" loading="lazy"><span class="lb"><i style="background:var(--mint)">٤</i>سيارات وحركة</span></a>
+   <a class="cat" href="#products"><img src="assets/babyset.jpg" alt="ملابس المواليد" loading="lazy"><span class="lb"><i style="background:var(--grape)">٥</i>ملابس المواليد</span></a>
+   <a class="cat" href="#products"><img src="assets/room.jpg" alt="غرف الأطفال" loading="lazy"><span class="lb"><i style="background:var(--ink)">٦</i>غرف الأطفال</span></a>
+  </div>
+ </div>
+</section>
+
+<section class="offer" id="offer">
+ <div class="wrap">
+  <div class="ob">
+   <div class="tx">
+    <h2>عروض <span>نهاية الأسبوع</span><br>حتى 40% خصم</h2>
+    <p>على الألعاب الخشبية والتعليمية المختارة. الكمية محدودة!</p>
+    <div class="cd" id="cd" aria-label="الوقت المتبقي على العرض"><div><b id="d">02</b><small>يوم</small></div><div><b id="h">14</b><small>ساعة</small></div><div><b id="m">36</b><small>دقيقة</small></div><div><b id="s">09</b><small>ثانية</small></div></div>
+    <a class="btn w" href="#products">تسوّق العروض</a>
+   </div>
+   <div class="im"><span class="burst">خصم<br>40%</span><img src="assets/puzzle.jpg" alt="قطع بازل ملونة" loading="lazy"></div>
+  </div>
+ </div>
+</section>
+
+<section id="products">
+ <div class="wrap">
+  <div class="sh"><span class="k">منتجاتنا</span><h2>اختيارات يحبها الصغار ❤️</h2></div>
+  <div class="tabs" role="tablist">
+   <button class="tab" role="tab" aria-selected="true" data-c="all">الكل</button>
+   <button class="tab" role="tab" aria-selected="false" data-c="best">الأكثر مبيعًا</button>
+   <button class="tab" role="tab" aria-selected="false" data-c="new">وصل حديثًا</button>
+   <button class="tab" role="tab" aria-selected="false" data-c="offer">العروض</button>
+  </div>
+  <div class="pgrid"><article class="pc" data-c="best"><div class="pim"><img src="assets/rainbowbox.jpg" alt="قوس قزح خشبي" loading="lazy"><span class="tag">خصم 30%</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">+18 شهر</span><h3>قوس قزح خشبي للتركيب</h3><div class="pr"><b>89 <small>ر.س</small></b><s>129 ر.س</s></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="best"><div class="pim"><img src="assets/sorter.jpg" alt="لعبة فرز الأشكال" loading="lazy"><span class="tag">الأكثر مبيعًا</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">+12 شهر</span><h3>مكعب فرز الأشكال التعليمي</h3><div class="pr"><b>75 <small>ر.س</small></b></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="new"><div class="pim"><img src="assets/teddy.jpg" alt="دبدوب قطني" loading="lazy"><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">من الولادة</span><h3>دبدوب «نونو» القطني الناعم</h3><div class="pr"><b>65 <small>ر.س</small></b></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="offer"><div class="pim"><img src="assets/bluecar.jpg" alt="سيارة خشبية زرقاء" loading="lazy"><span class="tag">خصم 29%</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">+3 سنوات</span><h3>سيارة سباق خشبية</h3><div class="pr"><b>49 <small>ر.س</small></b><s>69 ر.س</s></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="new"><div class="pim"><img src="assets/blocks.jpg" alt="مكعبات بناء ملونة" loading="lazy"><span class="tag">جديد</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">+4 سنوات</span><h3>مكعبات بناء إبداعية 120 قطعة</h3><div class="pr"><b>139 <small>ر.س</small></b></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="offer"><div class="pim"><img src="assets/horse.jpg" alt="حصان هزاز خشبي" loading="lazy"><span class="tag">خصم 19%</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">+2 سنة</span><h3>حصان هزاز كلاسيكي</h3><div class="pr"><b>349 <small>ر.س</small></b><s>429 ر.س</s></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="best"><div class="pim"><img src="assets/clothes.jpg" alt="طقم ملابس مواليد" loading="lazy"><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">0–6 أشهر</span><h3>طقم مواليد قطن عضوي 5 قطع</h3><div class="pr"><b>119 <small>ر.س</small></b></div><button class="addc">أضف للسلة</button></div></article><article class="pc" data-c="new"><div class="pim"><img src="assets/shoes.jpg" alt="حذاء أطفال" loading="lazy"><span class="tag">جديد</span><button class="fav" aria-label="أضف للمفضلة">♡</button></div><div class="pb"><span class="age">6–18 شهر</span><h3>حذاء الخطوات الأولى</h3><div class="pr"><b>95 <small>ر.س</small></b></div><button class="addc">أضف للسلة</button></div></article></div>
+  <div class="pay"><span>ادفع بسهولة:</span><span class="b">مدى</span><span class="b">Apple Pay</span><span class="b">STC Pay</span><span class="b">تابي – قسّمها على 4</span><span class="b">تمارا</span><span class="b">الدفع عند الاستلام</span></div>
+ </div>
+</section>
+
+<section id="gift" style="padding-top:0">
+ <div class="wrap">
+  <div class="gift">
+   <div>
+    <h2>محتار في الهدية؟ 🎁<br>خلّها علينا!</h2>
+    <p>اختر عمر الطفل وميزانيتك، ونرسل لك 3 اقتراحات مغلّفة وجاهزة للإهداء عبر الواتساب.</p>
+   </div>
+   <div class="gform">
+    <div><label>عمر الطفل</label><div class="opts" data-g="age"><button class="opt" aria-pressed="true">أقل من سنة</button><button class="opt" aria-pressed="false">1–3</button><button class="opt" aria-pressed="false">3–6</button><button class="opt" aria-pressed="false">+6</button></div></div>
+    <div><label>الميزانية</label><div class="opts" data-g="bud"><button class="opt" aria-pressed="false">حتى 100 ر.س</button><button class="opt" aria-pressed="true">100–250 ر.س</button><button class="opt" aria-pressed="false">+250 ر.س</button></div></div>
+    <a class="btn g" id="giftbtn" href="#" target="_blank" rel="noopener" style="justify-content:center"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg> أرسل لي الاقتراحات</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap trust">
+  <div class="tr"><i style="background:#dcf6ec">🛡️</i><div><b>ألعاب آمنة</b><span>مواد غير سامة ومناسبة للعمر المذكور</span></div></div>
+  <div class="tr"><i style="background:#dff3fd">🚚</i><div><b>توصيل سريع</b><span>الرياض وجدة خلال 24 ساعة، وباقي المدن 1–3 أيام</span></div></div>
+  <div class="tr"><i style="background:#fff1c7">🔄</i><div><b>استرجاع سهل</b><span>خلال 14 يوم للمنتجات غير المستخدمة</span></div></div>
+  <div class="tr"><i style="background:#ffe3df">🎁</i><div><b>تغليف هدايا</b><span>مع بطاقة باسمك مجانًا</span></div></div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap">
+  <div class="sh"><span class="k">آراء العملاء</span><h2>أمهات جرّبوا توتا</h2></div>
+  <div class="revs">
+   <div class="rv"><div class="st">★★★★★</div><p>«قوس قزح الخشبي جودته ممتازة، وبنتي ما تتركه أبد.»</p><small>أم سارة · الرياض</small></div>
+   <div class="rv"><div class="st">★★★★★</div><p>«التغليف كان حلو مرة، أرسلتها هدية لمولود جديد.»</p><small>أم فهد · جدة</small></div>
+   <div class="rv"><div class="st">★★★★★</div><p>«قسّمت المبلغ على تابي ووصل الطلب ثاني يوم.»</p><small>أم ريم · الخبر</small></div>
+  </div>
+  <p class="note">* آراء توضيحية لأغراض العرض ضمن النموذج التجريبي.</p>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="fg">
+   <div><div class="logo" style="color:#fff">توتا <small>TOOTA KIDS</small></div><p style="margin-top:.8rem;max-width:300px;font-size:.92rem">متجر ألعاب ومستلزمات أطفال، نختار كل منتج كأنه لأطفالنا.</p><div class="soc"><a href="#">Instagram</a><a href="#">Snapchat</a><a href="#">TikTok</a><a href="#">X</a></div></div>
+   <div><h4>تسوّق</h4><ul><li><a href="#ages">حسب العمر</a></li><li><a href="#cats">الأقسام</a></li><li><a href="#offer">العروض</a></li><li><a href="#gift">الهدايا</a></li></ul></div>
+   <div><h4>خدمة العملاء</h4><ul><li><a href="#">تتبّع الطلب</a></li><li><a href="#">الشحن والتوصيل</a></li><li><a href="#">سياسة الاسترجاع</a></li><li><a href="#">الأسئلة الشائعة</a></li></ul></div>
+   <div><h4>تواصل معنا</h4><ul><li><a href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%AA%D9%88%D8%AA%D8%A7" target="_blank" rel="noopener">واتساب: 0500000000</a></li><li>hello@toota.example</li><li>السجل التجاري: 0000000000</li><li>الرقم الضريبي: 300000000000003</li></ul></div>
+  </div>
+  <div class="fb"><span>© 2026 توتا — علامة تجارية افتراضية.</span><span class="agency">نموذج تجريبي من تصميم AI Friend Agency</span></div>
+ </div>
+</footer>
+<a class="waf" href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%AA%D9%88%D8%AA%D8%A7%D8%8C%20%D8%B9%D9%86%D8%AF%D9%8A%20%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg></a>
+<div class="toast" id="toast" role="status">تمت الإضافة إلى السلة 🎉</div>
+<script>
+(function(){
+ var tabs=document.querySelectorAll('.tab'),pcs=document.querySelectorAll('.pc');
+ tabs.forEach(function(t){t.addEventListener('click',function(){tabs.forEach(function(x){x.setAttribute('aria-selected','false')});t.setAttribute('aria-selected','true');var c=t.dataset.c;pcs.forEach(function(p){p.classList.toggle('hide',c!=='all'&&p.dataset.c!==c)})})});
+ var n=0,cnt=document.getElementById('cnt'),toast=document.getElementById('toast'),tm;
+ document.querySelectorAll('.addc').forEach(function(b){b.addEventListener('click',function(){n++;cnt.textContent=n;b.classList.add('ok');b.textContent='✓ أُضيف';toast.classList.add('on');clearTimeout(tm);tm=setTimeout(function(){toast.classList.remove('on')},1500)})});
+ document.querySelectorAll('.fav').forEach(function(f){f.addEventListener('click',function(){f.classList.toggle('on');f.textContent=f.classList.contains('on')?'♥':'♡'})});
+ document.querySelectorAll('.opts').forEach(function(g){g.querySelectorAll('.opt').forEach(function(o){o.addEventListener('click',function(){g.querySelectorAll('.opt').forEach(function(x){x.setAttribute('aria-pressed','false')});o.setAttribute('aria-pressed','true');upd()})})});
+ var gb=document.getElementById('giftbtn');
+ function upd(){var a=document.querySelector('[data-g=age] [aria-pressed=true]').textContent,b=document.querySelector('[data-g=bud] [aria-pressed=true]').textContent;gb.href='https://wa.me/966500000000?text='+encodeURIComponent('مرحبا توتا، أبي اقتراحات هدية لطفل عمره '+a+' بميزانية '+b);}
+ upd();
+ var end=Date.now()+((2*24+14)*3600+36*60+9)*1000;
+ function p(x){return (x<10?'0':'')+x}
+ function tick(){var s=Math.max(0,Math.floor((end-Date.now())/1000));document.getElementById('d').textContent=p(Math.floor(s/86400));document.getElementById('h').textContent=p(Math.floor(s%86400/3600));document.getElementById('m').textContent=p(Math.floor(s%3600/60));document.getElementById('s').textContent=p(s%60)}
+ tick();setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>
