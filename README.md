@@ -16,8 +16,8 @@ The HTML also carries the same number as a no-JavaScript fallback; search `wa.me
 
 ## Domain
 The site is live on GitHub Pages at `https://a2magency99-lang.github.io/aifriendagency/`.
-`index.html`, `demos/index.html`, `sitemap.xml` and `robots.txt` use that address for the canonical URL,
-Open Graph image and JSON-LD. If you move to a custom domain, replace that address in those four files.
+`index.html`, `demos/index.html`, every `demos/<niche>/index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `llms.txt` and `llms-full.txt` use that address for the canonical URL,
+Open Graph image and JSON-LD. If you move to a custom domain, replace that address in those files (search for `a2magency99-lang.github.io/aifriendagency/`).
 
 ## Deploy on GitHub Pages
 Push the contents of this folder to the root of a GitHub repo (keep `.nojekyll`), then
@@ -35,3 +35,10 @@ so it works both at `https://USER.github.io/REPO/` and on a custom domain.
 - `demos/<niche>/` — demo sites by niche, linked from the "نماذج مواقع حسب نشاطك" section
 - `og.png` — 1200×630 share card; `favicon.svg`, `apple-touch-icon.png`
 - `404.html` — not-found page; `.nojekyll` — tells GitHub Pages to serve files as-is
+
+## SEO / AEO / GEO (Oct 18, 2026)
+- Google Search Console verification meta tag sits right after `<meta charset>` in `index.html` — keep it.
+- `index.html`: keyword title/description, canonical + hreflang (ar, x-default), OG/Twitter, answer-first "ما هي AI Friend Agency؟" section (`#about`), 12-question FAQ; JSON-LD: ProfessionalService (contact point, areas served, languages, service types), WebSite, WebPage, FAQPage (mirrors the visible FAQ — update both together), Service entries per category.
+- `demos/index.html`: CollectionPage + BreadcrumbList + ItemList of CreativeWork samples.
+- Each `demos/<niche>/index.html`: unique title/description marked as a sample, canonical, OG/Twitter with its own 1200×630 card (`assets/img/og/<niche>.jpg`), CreativeWork + BreadcrumbList JSON-LD, image width/height + lazy-loading.
+- `llms.txt` / `llms-full.txt`: plain-text summary for AI assistants. `robots.txt` allows all crawlers incl. AI bots. `sitemap.xml` lists all 22 pages with images.
