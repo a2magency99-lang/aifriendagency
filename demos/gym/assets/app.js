@@ -1,5 +1,5 @@
 // رقم واتساب تجريبي — غيّره من هنا فقط
-const WHATSAPP = '966500000000';
+const WHATSAPP = '201552759343';
 document.querySelectorAll('.wa-link').forEach(a=>{a.href='https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(a.dataset.msg||'مرحبا');a.target='_blank';a.rel='noopener'});
 const nav=document.querySelector('.nav'),bur=document.querySelector('.burger');
 bur.addEventListener('click',()=>{const o=nav.classList.toggle('open');bur.setAttribute('aria-expanded',o)});

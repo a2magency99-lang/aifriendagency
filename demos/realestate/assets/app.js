@@ -1,5 +1,5 @@
 // ===== Demo settings: change in one place =====
-const WHATSAPP_NUMBER = "966500000000"; // placeholder number for the demo
+const WHATSAPP_NUMBER = "201552759343"; // placeholder number for the demo
 const waLink = (msg) => "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg || "");
 document.querySelectorAll("[data-wa]").forEach(a => { a.href = waLink(a.dataset.wa); a.target = "_blank"; a.rel = "noopener"; });
 const menuBtn = document.querySelector(".menu"), nav = document.getElementById("nav");
