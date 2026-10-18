@@ -38,6 +38,20 @@
 - [Demo websites by business type](https://a2magency99-lang.github.io/aifriendagency/demos/)
 - [Full text for AI assistants](https://a2magency99-lang.github.io/aifriendagency/llms-full.txt)
 
+## Blog (Arabic guides for store owners in Saudi Arabia and the Gulf)
+
+- [مدونة AI Friend Agency](https://a2magency99-lang.github.io/aifriendagency/blog/): كل المقالات
+- [سلة أم زد؟ مقارنة عملية لاختيار منصة متجرك](https://a2magency99-lang.github.io/aifriendagency/blog/salla-vs-zid/): سلة أم زد؟ مقارنة عملية بين أشهر منصتين للمتاجر في السعودية: الدفع، الشحن، التطبيقات، السيو، والتوثيق، مع أسئلة تحسم اختيارك قبل الاشتراك.
+- [خطوات إنشاء متجر إلكتروني في السعودية من الصفر](https://a2magency99-lang.github.io/aifriendagency/blog/online-store-steps-saudi/): خطوات إنشاء متجر إلكتروني في السعودية بالترتيب: اختيار المنتج، الوثيقة النظامية، المنصة، الدومين، الدفع والشحن، التوثيق، ثم الإطلاق والتسويق.
+- [توثيق متجر إلكتروني في منصة الأعمال: الخطوات والشروط](https://a2magency99-lang.github.io/aifriendagency/blog/ecommerce-verification-saudi-business-center/): دليل مبسط لتوثيق متجر إلكتروني عبر منصة الأعمال التابعة للمركز السعودي للأعمال: الشروط، خطوات الطلب، إثبات ملكية النطاق، وأسباب رفض شائعة.
+- [وثيقة العمل الحر للمتجر الإلكتروني: الخطوات والنصائح](https://a2magency99-lang.github.io/aifriendagency/blog/freelance-document-online-store/): هل تكفي وثيقة العمل الحر لفتح متجر إلكتروني في السعودية؟ خطوات الإصدار من منصة العمل الحر، اختيار المهنة المناسبة، والربط مع التوثيق والمنصة.
+- [كيف أزيد مبيعات متجري الإلكتروني؟ 12 خطوة عملية](https://a2magency99-lang.github.io/aifriendagency/blog/increase-online-store-sales/): كيف أزيد مبيعات متجري؟ 12 خطوة عملية مرتبة حسب الأولوية: تجربة الجوال، صفحة المنتج، الدفع والشحن، السلات المتروكة، الإعلانات، والعملاء المتكررين.
+- [إعلانات سناب شات للمتاجر: دليل البداية خطوة بخطوة](https://a2magency99-lang.github.io/aifriendagency/blog/snapchat-ads-for-online-stores/): دليل إعلانات سناب شات للمتاجر في السعودية والخليج: إنشاء الحساب، ربط سناب بكسل مع سلة أو زد، أول حملة، أفكار إعلانات تبيع، وأخطاء تهدر الميزانية.
+- [سيو متجر سلة وزد: كيف يظهر متجرك في جوجل؟](https://a2magency99-lang.github.io/aifriendagency/blog/salla-zid-store-seo/): دليل سيو متجر سلة وزد: إعدادات الصفحة الرئيسية والمنتجات والتصنيفات، إرسال خريطة الموقع لسيرش كونسول، اختيار الكلمات المفتاحية، وأخطاء تمنع الظهور.
+- [السلات المتروكة في سلة وزد: الاسترجاع ونماذج رسائل](https://a2magency99-lang.github.io/aifriendagency/blog/abandoned-cart-recovery/): ما هي السلات المتروكة وأسبابها، وكيف تفعّل التذكير في سلة وزد، مع نماذج رسائل تذكير واتساب وبريد جاهزة، وتنبيهات مهمة حول الرسائل النصية الدعائية.
+- [إضافة نشاط تجاري على خرائط جوجل: الدليل الكامل](https://a2magency99-lang.github.io/aifriendagency/blog/google-business-profile-maps/): خطوات إضافة نشاطك التجاري على خرائط جوجل عبر ملف النشاط التجاري: الأهلية، الإنشاء، طرق التحقق، وتحسين الظهور المحلي للمطاعم والعيادات والصالونات والمحلات.
+- [تكلفة إنشاء متجر إلكتروني في السعودية: بنود تدفع لها](https://a2magency99-lang.github.io/aifriendagency/blog/online-store-cost-saudi/): قبل أن تسأل كم تكلفة إنشاء متجر إلكتروني في السعودية، اعرف البنود: اشتراك المنصة، الدومين، رسوم الدفع، الشحن، التطبيقات، التصميم، المحتوى، والإعلانات.
+
 ## Demo websites (samples, fictional brands)
 - [تصميم متجر عطور — نموذج تجريبي (دار نَفْح للعطور)](https://a2magency99-lang.github.io/aifriendagency/demos/perfume/): Perfume Store demo. علامة خيالية للعرض من تصميم AI Friend Agency.
 - [تصميم متجر عبايات وأزياء — نموذج تجريبي (أتيليه سَديم للعبايات)](https://a2magency99-lang.github.io/aifriendagency/demos/abaya/): Abaya & Fashion demo. علامة خيالية للعرض من تصميم AI Friend Agency.
