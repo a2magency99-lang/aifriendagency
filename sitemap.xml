@@ -1,25 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/perfume/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/abaya/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/cafe/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/clinic/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/salon/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/realestate/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/electronics/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/academy/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/gym/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/cars/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/furniture/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/sweets/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/travel/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/law/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/cleaning/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/flowers/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/jewelry/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/kids/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/contracting/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://a2magency99-lang.github.io/aifriendagency/demos/pharmacy/</loc><lastmod>2026-10-18</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/og.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/perfume.webp</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/abaya.webp</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/cafe.webp</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/clinic.webp</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/salon.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/perfume/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/perfume/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/perfume/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/perfume.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/perfume.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/abaya/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/abaya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/abaya/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/abaya.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/abaya.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/cafe/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/cafe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/cafe/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/cafe.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/cafe.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/clinic/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/clinic/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/clinic/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/clinic.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/clinic.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/salon/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/salon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/salon/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/salon.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/salon.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/realestate/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/realestate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/realestate/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/realestate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/realestate.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/electronics/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/electronics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/electronics/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/electronics.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/electronics.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/academy/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/academy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/academy/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/academy.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/academy.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/gym/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/gym/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/gym/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/gym.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/gym.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/cars/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/cars/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/cars/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/cars.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/cars.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/furniture/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/furniture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/furniture/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/furniture.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/furniture.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/sweets/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/sweets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/sweets/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/sweets.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/sweets.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/travel/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/travel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/travel/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/travel.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/travel.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/law/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/law/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/law/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/law.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/law.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/cleaning/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/cleaning/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/cleaning.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/cleaning.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/flowers/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/flowers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/flowers/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/flowers.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/flowers.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/jewelry/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/jewelry/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/jewelry/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/jewelry.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/jewelry.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/kids/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/kids/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/kids/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/kids.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/kids.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/contracting/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/contracting/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/contracting/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/contracting.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/contracting.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://a2magency99-lang.github.io/aifriendagency/demos/pharmacy/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a2magency99-lang.github.io/aifriendagency/demos/pharmacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://a2magency99-lang.github.io/aifriendagency/demos/pharmacy/"/>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/og/pharmacy.jpg</image:loc></image:image>
+    <image:image><image:loc>https://a2magency99-lang.github.io/aifriendagency/assets/img/demos/pharmacy.webp</image:loc></image:image>
+  </url>
 </urlset>

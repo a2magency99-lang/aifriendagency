@@ -1,0 +1,61 @@
+# AI Friend Agency
+
+> AI Friend Agency وكالة تسويق رقمي عربية تعمل عن بُعد، تصمّم متاجر سلة وزد وشوبيفاي، وتبني مواقع الشركات وصفحات الهبوط، وتدير السوشيال ميديا والإعلانات الممولة (سناب شات، تيك توك، ميتا، جوجل، إكس) لأصحاب المتاجر والمشاريع في السعودية والإمارات والكويت وقطر والبحرين وعُمان.
+> AI Friend Agency is a remote, Arabic-first digital agency that builds Salla, Zid and Shopify stores, designs company websites and landing pages, and runs social media and paid ads (Snapchat, TikTok, Meta, Google, X) for store owners and businesses in Saudi Arabia and the GCC.
+
+## Key facts
+- Name: AI Friend Agency (وكالة AI Friend)
+- Website: https://a2magency99-lang.github.io/aifriendagency/
+- Type: digital marketing & e-commerce agency (ProfessionalService), works remotely
+- Countries served: Saudi Arabia (SA), United Arab Emirates (AE), Kuwait (KW), Qatar (QA), Bahrain (BH), Oman (OM)
+- Languages: Arabic, English
+- Contact: WhatsApp +20 155 275 9343 (https://wa.me/201552759343) · Email aifriend411@gmail.com
+- Prices: not published; every project gets a written quote (scope + timeline) after a free consultation on WhatsApp.
+- Demo sites: fictional sample brands designed by the agency, labelled "نموذج تجريبي من تصميم AI Friend Agency". They are not client websites.
+- Compliance-related services (e-invoicing / Fatoora integration, store verification with the Saudi Business Center) are help and preparation only; the agency is not a government body and does not represent one.
+
+## Services
+- متاجر ومنصات / Stores: إنشاء متجر على سلة أو زد، متاجر شوبيفاي، تجديد وتحسين متجر قائم، تجهيز المتجر على نون وأمازون السعودية، ربط بوابات الدفع (مدى، تابي، تمارا…) وشركات الشحن، رفع المنتجات ووصف SEO، تعريب المتجر.
+- مواقع وويب / Websites: مواقع الشركات، صفحات هبوط للإعلانات، صيانة وتسريع المواقع، استضافة ودومين وإيميل رسمي.
+- هوية وتصميم / Brand & design: شعار وهوية بصرية، تصميم منيو، بروفايل شركة PDF، تحسين صور المنتجات، بنرات المتجر والعروض.
+- محتوى / Content: كتابة محتوى عربي، فيديو بفويس أوفر خليجي، محتوى UGC، بوستات المواسم.
+- تسويق / Marketing: إدارة السوشيال ميديا، صناعة المحتوى (بوستات وريلز)، SEO للمتاجر، التسويق بالإيميل، التسويق بالمؤثرين، حملات المواسم (رمضان، اليوم الوطني، الوايت فرايدي).
+- إعلانات ممولة / Paid ads: سناب شات، تيك توك، ميتا (فيسبوك وإنستقرام)، جوجل (بحث، شوبنج، يوتيوب)، إكس، تركيب البكسل وتتبع التحويلات، إعادة الاستهداف.
+- واتساب وأتمتة / WhatsApp & automation: واتساب بزنس API، بوت تأكيد طلبات الدفع عند الاستلام، شات بوت بالعربي واللهجة، رسائل السلة المتروكة.
+- تواجد محلي / Local presence: ملف نشاط جوجل وخرائط جوجل، الرد على تقييمات جوجل، التجهيز للتسجيل في منصات التوصيل.
+- امتثال وتشغيل / Compliance help: مساعدة في الربط مع الفوترة الإلكترونية (فاتورة)، مساعدة في توثيق المتجر في المركز السعودي للأعمال، منيو بالسعرات الحرارية.
+
+## How to start
+1. Message the agency on WhatsApp (https://wa.me/201552759343) or email aifriend411@gmail.com with your business and what you need.
+2. Receive a clear written offer: scope, timeline and price, before any work starts.
+3. Work is delivered with progress updates; revisions and post-delivery support are included in the agreed scope.
+
+## Key pages
+- [Home — services, packages, FAQ, contact](https://a2magency99-lang.github.io/aifriendagency/)
+- [About the agency (answer-first summary)](https://a2magency99-lang.github.io/aifriendagency/#about)
+- [Services catalog](https://a2magency99-lang.github.io/aifriendagency/#services)
+- [FAQ](https://a2magency99-lang.github.io/aifriendagency/#faq)
+- [Demo websites by business type](https://a2magency99-lang.github.io/aifriendagency/demos/)
+- [Full text for AI assistants](https://a2magency99-lang.github.io/aifriendagency/llms-full.txt)
+
+## Demo websites (samples, fictional brands)
+- [تصميم متجر عطور — نموذج تجريبي (دار نَفْح للعطور)](https://a2magency99-lang.github.io/aifriendagency/demos/perfume/): Perfume Store demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم متجر عبايات وأزياء — نموذج تجريبي (أتيليه سَديم للعبايات)](https://a2magency99-lang.github.io/aifriendagency/demos/abaya/): Abaya & Fashion demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع مطعم وكافيه — نموذج تجريبي (سُمرة للقهوة المختصة)](https://a2magency99-lang.github.io/aifriendagency/demos/cafe/): Restaurant & Café demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع عيادة — نموذج تجريبي (عيادات لُجين لطب الأسنان والجلدية)](https://a2magency99-lang.github.io/aifriendagency/demos/clinic/): Clinic demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع صالون تجميل — نموذج تجريبي (لُمى بيوتي لاونج)](https://a2magency99-lang.github.io/aifriendagency/demos/salon/): Beauty Salon demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع عقارات — نموذج تجريبي (أساس العقارية)](https://a2magency99-lang.github.io/aifriendagency/demos/realestate/): Real Estate demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم متجر إلكترونيات — نموذج تجريبي (نبض تك)](https://a2magency99-lang.github.io/aifriendagency/demos/electronics/): Electronics Store demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع أكاديمية ودورات — نموذج تجريبي (أكاديمية نَهج)](https://a2magency99-lang.github.io/aifriendagency/demos/academy/): Academy & Courses demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع نادي رياضي — نموذج تجريبي (عزم فتنس)](https://a2magency99-lang.github.io/aifriendagency/demos/gym/): Gym & Fitness demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع تأجير وخدمات سيارات — نموذج تجريبي (درب لتأجير السيارات)](https://a2magency99-lang.github.io/aifriendagency/demos/cars/): Car Rental & Services demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع أثاث وتصميم داخلي — نموذج تجريبي (سُكون للأثاث والتصميم الداخلي)](https://a2magency99-lang.github.io/aifriendagency/demos/furniture/): Furniture & Interiors demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع حلويات وتمور — نموذج تجريبي (دار الحلا للتمور والحلويات)](https://a2magency99-lang.github.io/aifriendagency/demos/sweets/): Sweets & Dates demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع سفر وعمرة — نموذج تجريبي (الرحّال للسفر والعمرة)](https://a2magency99-lang.github.io/aifriendagency/demos/travel/): Travel & Umrah demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع محاماة واستشارات — نموذج تجريبي (رصين للمحاماة والاستشارات القانونية)](https://a2magency99-lang.github.io/aifriendagency/demos/law/): Law & Consulting demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع تنظيف وصيانة — نموذج تجريبي (لمعة لخدمات التنظيف والصيانة)](https://a2magency99-lang.github.io/aifriendagency/demos/cleaning/): Cleaning & Maintenance demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع ورود وهدايا — نموذج تجريبي (بتلة للورود والهدايا)](https://a2magency99-lang.github.io/aifriendagency/demos/flowers/): Flowers & Gifts demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع مجوهرات وذهب — نموذج تجريبي (دار لُجين للذهب)](https://a2magency99-lang.github.io/aifriendagency/demos/jewelry/): Jewelry & Gold demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع ألعاب أطفال — نموذج تجريبي (توتا)](https://a2magency99-lang.github.io/aifriendagency/demos/kids/): Kids & Toys demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع مقاولات — نموذج تجريبي (بنيان الرواسي للمقاولات)](https://a2magency99-lang.github.io/aifriendagency/demos/contracting/): Contracting demo. علامة خيالية للعرض من تصميم AI Friend Agency.
+- [تصميم موقع صيدلية — نموذج تجريبي (صيدلية نقاء)](https://a2magency99-lang.github.io/aifriendagency/demos/pharmacy/): Pharmacy demo. علامة خيالية للعرض من تصميم AI Friend Agency.
