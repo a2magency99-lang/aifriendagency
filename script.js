@@ -4,7 +4,7 @@
    ===================================================================== */
 const CONFIG = {
   WHATSAPP_NUMBER: "201552759343",          // international format, digits only (placeholder)
-  CONTACT_EMAIL:   "hello@aifriendagency.com" // placeholder: replace with the real inbox
+  CONTACT_EMAIL:   "aifriend411@gmail.com" // placeholder: replace with the real inbox
 };
 
 (function () {
