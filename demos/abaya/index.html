@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أتيليه سَديم للعبايات | Sadeem Atelier — نموذج تجريبي</title>
+<meta name="description" content="أتيليه سديم: عبايات وأزياء محتشمة بتصاميم سعودية معاصرة، تفصيل حسب المقاس وتوصيل لكل مدن المملكة. نموذج تجريبي من تصميم AI Friend Agency.">
+<meta name="theme-color" content="#f4efe7">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f4efe7;--sand:#e8dfd2;--stone:#cfc3b2;--ink:#1d1a17;--mute:#6f665b;--olive:#5b5a3e;--rose:#b98b7c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Tajawal,system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.75;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+svg{width:1.3em;height:1.3em;flex:none}
+.wrap{width:min(1240px,100% - 2.5rem);margin-inline:auto}
+.lat{font-family:"Bodoni Moda",serif;letter-spacing:.28em;text-transform:uppercase}
+.hide-m{display:none}@media(min-width:640px){.hide-m{display:inline}}
+.strip{background:var(--ink);color:var(--cream);font-size:.8rem;text-align:center;padding:.5rem 1rem;letter-spacing:.02em}
+header{background:var(--cream);border-bottom:1px solid var(--stone);position:sticky;top:0;z-index:20}
+.nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:76px}
+.brand{text-align:center;line-height:1.05}
+.brand .lat{display:block;font-size:1.35rem;letter-spacing:.38em;font-weight:600;margin-inline-start:.38em}
+.brand small{font-size:.78rem;color:var(--mute);letter-spacing:.1em}
+.nav-s{display:flex;gap:1.6rem;font-size:.92rem;font-weight:500}
+.nav-s.e{justify-content:flex-end}
+.nav-s .hl{display:none}
+.ib{display:grid;place-items:center;width:38px;height:38px;background:none;border:0;cursor:pointer;color:var(--ink);position:relative}
+.cnt{position:absolute;top:4px;left:2px;background:var(--ink);color:var(--cream);font-size:.6rem;width:16px;height:16px;border-radius:50%;display:grid;place-items:center}
+.mm{display:none;flex-direction:column;gap:.7rem;padding:1rem 1.25rem;border-top:1px solid var(--stone)}
+.mm.open{display:flex}
+/* hero */
+.hero{display:grid;border-bottom:1px solid var(--stone)}
+.hero-img{position:relative;min-height:380px;background:var(--sand)}
+.hero-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.hero-img .cap{position:absolute;bottom:1rem;left:1rem;background:var(--cream);font-size:.75rem;padding:.3rem .7rem}
+.hero-txt{padding:2rem 1.25rem 2.6rem;display:flex;flex-direction:column;justify-content:center;gap:1.1rem}
+.kicker{font-size:.8rem;letter-spacing:.25em;color:var(--olive);font-weight:700}
+.hero h1{font-size:clamp(2.5rem,9vw,5rem);line-height:1.12;font-weight:800;letter-spacing:-.01em}
+.hero h1 span{display:block;font-weight:300}
+.hero p{color:var(--mute);font-size:1.05rem;max-width:30rem}
+.btns{display:flex;flex-wrap:wrap;gap:.7rem}
+.b{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.8rem;font-weight:700;font-size:.95rem;border:1px solid var(--ink);transition:.2s}
+.b-dark{background:var(--ink);color:var(--cream)}
+.b-dark:hover{background:var(--olive);border-color:var(--olive)}
+.b-line:hover{background:var(--ink);color:var(--cream)}
+.b-line svg{color:#1faa59}
+.meta{display:flex;gap:1.8rem;margin-top:.6rem;font-size:.85rem;color:var(--mute);flex-wrap:wrap}
+.meta b{display:block;color:var(--ink);font-size:1.05rem}
+/* marquee */
+.marq{border-bottom:1px solid var(--stone);overflow:hidden;white-space:nowrap;background:var(--sand)}
+.marq div{display:inline-flex;gap:3rem;padding-inline-end:3rem;padding:.9rem 0;animation:mv 28s linear infinite;font-size:.95rem;font-weight:500}
+.marq span:before{content:"✦";margin-inline-end:1rem;color:var(--rose)}
+@keyframes mv{to{transform:translateX(50%)}}
+section{padding:4.5rem 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;margin-bottom:2rem;border-bottom:1px solid var(--stone);padding-bottom:1rem}
+.head h2{font-size:clamp(1.7rem,5vw,2.6rem);font-weight:800;line-height:1.25}
+.head .lat{font-size:.7rem;color:var(--mute);display:block;margin-bottom:.3rem}
+.head a{font-weight:700;font-size:.9rem;border-bottom:1px solid;white-space:nowrap}
+/* collections */
+.cols{display:grid;gap:1rem}
+.colc{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--sand)}
+.colc img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.colc:hover img{transform:scale(1.05)}
+.colc .lbl{position:absolute;inset:auto 0 0 0;padding:1.2rem;background:linear-gradient(0deg,rgba(29,26,23,.75),transparent);color:var(--cream)}
+.colc h3{font-size:1.4rem;font-weight:700}
+.colc span{font-size:.85rem}
+.cols .colc:first-child{aspect-ratio:4/5}
+/* items */
+.items{display:grid;grid-template-columns:repeat(2,1fr);gap:1.6rem .9rem}
+.item-img{position:relative;display:block;aspect-ratio:3/4;overflow:hidden;background:var(--sand)}
+.item-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.item:hover .item-img img{transform:scale(1.04)}
+.itag{position:absolute;top:.6rem;right:.6rem;background:var(--cream);font-size:.7rem;font-weight:700;padding:.15rem .55rem}
+.quick{position:absolute;inset:auto .6rem .6rem .6rem;background:rgba(29,26,23,.88);color:var(--cream);text-align:center;font-size:.8rem;padding:.5rem;opacity:0;transform:translateY(8px);transition:.3s}
+.item:hover .quick{opacity:1;transform:none}
+.item-meta{padding-top:.7rem}
+.item-meta h3{font-size:.98rem;font-weight:700;line-height:1.4}
+.item-meta p{font-size:.78rem;color:var(--mute)}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:.35rem;gap:.5rem}
+.pr{font-weight:800;font-size:1rem}
+.pr s{color:var(--mute);font-weight:400;font-size:.8rem;margin-inline-start:.3rem}
+.sw{display:flex;gap:.3rem}
+.sw i{width:14px;height:14px;border-radius:50%;border:1px solid var(--stone);display:block}
+.inst{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem;align-items:center;font-size:.85rem;color:var(--mute);justify-content:center}
+.chip{border:1px solid var(--stone);padding:.2rem .7rem;font-weight:700;color:var(--ink);background:#fbf8f3;font-size:.8rem}
+/* tailoring banner */
+.tailor{position:relative;overflow:hidden;color:var(--cream);background:var(--ink)}
+.tailor img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.tailor .in{position:relative;padding:4rem 1.25rem;max-width:620px}
+.tailor h2{font-size:clamp(1.9rem,6vw,3.2rem);line-height:1.2;font-weight:800;margin:.6rem 0 1rem}
+.tailor p{opacity:.9;margin-bottom:1.5rem}
+.tailor .b{border-color:var(--cream)}
+.tailor .b-cream{background:var(--cream);color:var(--ink)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-bottom:1.8rem}
+.steps div{border-top:1px solid rgba(244,239,231,.5);padding-top:.6rem;font-size:.85rem}
+.steps b{display:block;font-family:"Bodoni Moda",serif;font-size:1.4rem}
+/* size */
+.size{display:grid;gap:2rem;align-items:center}
+.size table{width:100%;border-collapse:collapse;font-size:.9rem;background:#fbf8f3}
+.size th,.size td{border:1px solid var(--stone);padding:.6rem;text-align:center}
+.size th{background:var(--sand);font-weight:700}
+.size h2{font-size:clamp(1.6rem,4.5vw,2.3rem);line-height:1.3;margin-bottom:.8rem}
+.size p{color:var(--mute)}
+/* reviews */
+.quotes{display:grid;gap:1rem}
+.q{border:1px solid var(--stone);padding:1.6rem;background:#fbf8f3}
+.q .mk{font-family:"Bodoni Moda",serif;font-size:3rem;line-height:.6;color:var(--rose)}
+.q p{font-size:1.05rem;margin:.6rem 0}
+.q span{font-size:.8rem;color:var(--mute)}
+.note{text-align:center;font-size:.78rem;color:var(--mute);margin-top:1rem}
+.svc{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--stone);border-bottom:1px solid var(--stone)}
+.svc div{padding:1.5rem 1rem;text-align:center;border-inline-start:1px solid var(--stone);font-size:.85rem;color:var(--mute)}
+.svc div:nth-child(2n+1){border-inline-start:0}
+.svc div:nth-child(-n+2){border-bottom:1px solid var(--stone)}
+.svc svg{margin:0 auto .5rem;width:1.8rem;height:1.8rem;color:var(--olive)}
+.svc b{display:block;color:var(--ink);font-size:.95rem}
+footer{background:var(--ink);color:#cfc6b8;padding:3.5rem 0 6rem;font-size:.9rem}
+.fg{display:grid;gap:2rem}
+footer h4{color:var(--cream);margin-bottom:.8rem}
+footer ul{list-style:none;display:grid;gap:.4rem}
+.fbrand .lat{font-size:1.4rem;color:var(--cream);letter-spacing:.36em}
+.soc{display:flex;gap:.5rem;margin-top:1rem}
+.soc a{width:40px;height:40px;border:1px solid #4a443d;display:grid;place-items:center;color:var(--cream)}
+.soc a:hover{background:var(--cream);color:var(--ink)}
+.sub{display:flex;margin-top:.8rem;border:1px solid #4a443d}
+.sub input{flex:1;min-width:0;background:transparent;border:0;color:var(--cream);padding:.7rem;font:inherit}
+.sub button{background:var(--cream);color:var(--ink);border:0;padding:0 1rem;font:inherit;font-weight:700}
+.fb{border-top:1px solid #3a352f;margin-top:2.5rem;padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:.8rem;justify-content:space-between;font-size:.8rem}
+.demo-note{opacity:.75;font-size:.75rem}
+.wa-float{position:fixed;bottom:18px;left:18px;z-index:30;display:flex;align-items:center;gap:.4rem;background:var(--ink);color:var(--cream);padding:.75rem 1.1rem;font-weight:700;font-size:.88rem;box-shadow:0 10px 25px -8px rgba(0,0,0,.45)}
+.wa-float svg{color:#25d366}
+.demo-badge{position:fixed;bottom:14px;right:14px;z-index:29;background:rgba(29,26,23,.6);color:#f4efe7;font-size:.66rem;padding:.25rem .6rem;border-radius:999px;pointer-events:none}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
+@media (min-width:700px){.items{grid-template-columns:repeat(3,1fr)}.cols{grid-template-columns:1.3fr 1fr 1fr}.cols .colc:first-child{aspect-ratio:auto}.quotes{grid-template-columns:repeat(3,1fr)}.svc{grid-template-columns:repeat(4,1fr)}.svc div:nth-child(-n+2){border-bottom:0}.svc div:nth-child(2n+1){border-inline-start:1px solid var(--stone)}.svc div:first-child{border-inline-start:0}}
+@media (min-width:1000px){
+ .nav-s .hl{display:inline}.menu-btn{display:none}
+ .hero{grid-template-columns:1fr 1fr;min-height:calc(100vh - 150px)}
+ .hero-txt{padding:3rem 4rem}
+ .tailor .in{padding:6rem 4rem}
+ .size{grid-template-columns:1fr 1.2fr;gap:4rem}
+ .fg{grid-template-columns:1.4fr 1fr 1fr 1.4fr}
+}
+@media (max-width:999px){.nav-s.s .hl{display:none}}
+@media (prefers-reduced-motion:reduce){.marq div{animation:none}}
+</style>
+</head>
+<body>
+<div class="strip">تفصيل مجاني حسب مقاسك<span class="hide-m"> · توصيل خلال 3–5 أيام لكل مدن المملكة</span></div>
+<header>
+ <div class="wrap nav">
+  <nav class="nav-s s" aria-label="الأقسام"><button class="ib menu-btn" aria-label="القائمة" onclick="document.getElementById('mm').classList.toggle('open')"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h10"/></svg></button><a class="hl" href="#new">وصل حديثًا</a><a class="hl" href="#cols">المجموعات</a><a class="hl" href="#tailor">التفصيل</a></nav>
+  <a class="brand" href="#"><span class="lat">Sadeem</span><small>أتيليه سَديم</small></a>
+  <div class="nav-s e"><a class="ib" href="#" aria-label="بحث"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M10.8 18a7.2 7.2 0 1 0 0-14.4 7.2 7.2 0 0 0 0 14.4ZM16 16l4.5 4.5"/></svg></a><a class="ib" href="#" aria-label="المفضلة"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.1A4.2 4.2 0 0 1 12 7.4a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></svg></a><a class="ib" href="#" aria-label="الحقيبة"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M3 4h2l2.4 11.2a1.5 1.5 0 0 0 1.5 1.2h8.6a1.5 1.5 0 0 0 1.5-1.1L21 8H6.2M9.5 20.5h.01M17.5 20.5h.01"/></svg><span class="cnt">1</span></a></div>
+ </div>
+ <div class="mm" id="mm"><a href="#new">وصل حديثًا</a><a href="#cols">المجموعات</a><a href="#tailor">التفصيل حسب المقاس</a><a href="#size">دليل المقاسات</a></div>
+</header>
+<main>
+<section class="hero" style="padding:0">
+ <div class="hero-img"><img src="assets/hero.jpg" alt="عباية بيج بقصّة واسعة" width="1200" height="1500"><span class="cap">مجموعة "رمال" · خريف 2026</span></div>
+ <div class="hero-txt">
+  <span class="kicker">مجموعة رمال · جديد</span>
+  <h1>أناقة هادئة<span>تُشبه المكان</span></h1>
+  <p>عبايات بخامات فاخرة وقصّات معاصرة، مستوحاة من ألوان صحراء نجد. تُفصّل على مقاسك وتوصلك جاهزة للّبس.</p>
+  <div class="btns"><a class="b b-dark" href="#new">تسوّقي المجموعة</a><a class="b b-line" href="https://wa.me/966500000000"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.43 1.32-1.97 1.37-.5.05-.98.24-3.3-.69-2.8-1.1-4.56-3.97-4.7-4.15-.13-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35h.53c.17 0 .4-.06.62.48.24.55.8 1.92.87 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.18.69-.8.88-1.08.18-.28.37-.23.62-.14.25.09 1.6.76 1.87.9.28.13.46.2.53.32.07.11.07.66-.17 1.33Z"/></svg> استشارة عبر واتساب</a></div>
+  <div class="meta"><div><b>تفصيل</b>حسب المقاس</div><div><b>استبدال</b>خلال 7 أيام</div><div><b>تقسيط</b>تابي وتمارا</div></div>
+ </div>
+</section>
+<div class="marq" aria-hidden="true"><div><span>كريب ملكي</span><span>نيدا ياباني</span><span>تطريز يدوي</span><span>شيفون مزدوج</span><span>لينن صيفي</span><span>تفصيل حسب المقاس</span><span>كريب ملكي</span><span>نيدا ياباني</span><span>تطريز يدوي</span><span>شيفون مزدوج</span><span>لينن صيفي</span><span>تفصيل حسب المقاس</span><span>كريب ملكي</span><span>نيدا ياباني</span><span>تطريز يدوي</span><span>شيفون مزدوج</span><span>لينن صيفي</span><span>تفصيل حسب المقاس</span><span>كريب ملكي</span><span>نيدا ياباني</span><span>تطريز يدوي</span><span>شيفون مزدوج</span><span>لينن صيفي</span><span>تفصيل حسب المقاس</span></div></div>
+<section id="cols">
+ <div class="wrap">
+  <div class="head"><div><span class="lat">Collections</span><h2>المجموعات</h2></div><a href="#">كل المجموعات</a></div>
+  <div class="cols">
+   <a class="colc" href="#"><img src="assets/c-boutique.jpg" alt="" loading="lazy"><div class="lbl"><h3>عبايات المناسبات</h3><span>تطريز، لؤلؤ، ومخمل</span></div></a>
+   <a class="colc" href="#"><img src="assets/c-daily.jpg" alt="" loading="lazy"><div class="lbl"><h3>اليومية</h3><span>خفيفة وعملية للدوام</span></div></a>
+   <a class="colc" href="#"><img src="assets/c-occasion.jpg" alt="" loading="lazy"><div class="lbl"><h3>الطرح والإكسسوار</h3><span>تكملة الإطلالة</span></div></a>
+  </div>
+ </div>
+</section>
+<section id="new" style="padding-top:0">
+ <div class="wrap">
+  <div class="head"><div><span class="lat">New In</span><h2>وصل حديثًا</h2></div><a href="#">عرض الكل</a></div>
+  <div class="items"><article class="item"><a href="#" class="item-img"><img src="assets/p-embroid.jpg" alt="عباية الياسمين المطرّزة" loading="lazy" width="800" height="1067"><span class="itag">جديد</span><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>عباية الياسمين المطرّزة</h3><p>كريب ملكي · تطريز يدوي</p><div class="row"><span class="pr">649 ر.س</span><span class="sw"><i style="background:#1b1b1b"></i><i style="background:#3d3328"></i></span></div></div></article><article class="item"><a href="#" class="item-img"><img src="assets/p-pearl.jpg" alt="عباية لؤلؤ" loading="lazy" width="800" height="1067"><span class="itag">إصدار محدود</span><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>عباية لؤلؤ</h3><p>شيفون مزدوج · أكمام لؤلؤ</p><div class="row"><span class="pr">720 ر.س</span><span class="sw"><i style="background:#1b1b1b"></i></span></div></div></article><article class="item"><a href="#" class="item-img"><img src="assets/p-classic.jpg" alt="العباية الكلاسيكية" loading="lazy" width="800" height="1067"><span class="itag">خصم</span><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>العباية الكلاسيكية</h3><p>نيدا ياباني · قصّة مستقيمة</p><div class="row"><span class="pr">389 ر.س <s>459</s></span><span class="sw"><i style="background:#1b1b1b"></i><i style="background:#5b4a3a"></i><i style="background:#2c3a33"></i></span></div></div></article><article class="item"><a href="#" class="item-img"><img src="assets/p-contrast.jpg" alt="عباية ليلى" loading="lazy" width="800" height="1067"><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>عباية ليلى</h3><p>كريب مع حواف ساتان</p><div class="row"><span class="pr">540 ر.س</span><span class="sw"><i style="background:#1b1b1b"></i><i style="background:#7b6a58"></i></span></div></div></article><article class="item"><a href="#" class="item-img"><img src="assets/p-blush.jpg" alt="عباية الوردي الهادئ" loading="lazy" width="800" height="1067"><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>عباية الوردي الهادئ</h3><p>لينن ناعم · يومي</p><div class="row"><span class="pr">420 ر.س</span><span class="sw"><i style="background:#d8b8ae"></i><i style="background:#e8dfd2"></i></span></div></div></article><article class="item"><a href="#" class="item-img"><img src="assets/p-gold.jpg" alt="عباية الذهب" loading="lazy" width="800" height="1067"><span class="itag">للمناسبات</span><span class="quick">إضافة سريعة +</span></a>
+<div class="item-meta"><h3>عباية الذهب</h3><p>مخمل · خيوط ذهبية للمناسبات</p><div class="row"><span class="pr">980 ر.س</span><span class="sw"><i style="background:#1b1b1b"></i></span></div></div></article></div>
+  <div class="inst"><span>ادفعي براحتك:</span><span class="chip">مدى</span><span class="chip">Apple Pay</span><span class="chip">تابي · 4 دفعات بدون فوائد</span><span class="chip">تمارا</span><span class="chip">الدفع عند الاستلام</span></div>
+ </div>
+</section>
+<section class="tailor" id="tailor">
+ <img src="assets/silk.jpg" alt="" loading="lazy">
+ <div class="wrap"><div class="in">
+  <span class="kicker" style="color:#e8dfd2">عرض الموسم</span>
+  <h2>خصم 20% على التفصيل الخاص<br>طوال شهر نوفمبر</h2>
+  <p>اختاري القصّة والقماش، وأرسلي مقاساتك عبر واتساب، وخيّاطاتنا يجهزونها لك خلال 5 أيام عمل.</p>
+  <div class="steps"><div><b>01</b>اختاري التصميم</div><div><b>02</b>أرسلي المقاس</div><div><b>03</b>استلمي عبايتك</div></div>
+  <div class="btns"><a class="b b-cream" href="https://wa.me/966500000000">ابدئي التفصيل</a><a class="b" href="#size">دليل المقاسات</a></div>
+ </div></div>
+</section>
+<section id="size">
+ <div class="wrap size">
+  <div><span class="kicker">دليل المقاسات</span><h2>مقاسك الصحيح من أول مرة</h2><p>كل عباياتنا متوفرة بالمقاسات القياسية، أو تُفصّل حسب طولك بالضبط بدون رسوم إضافية.</p></div>
+  <table><thead><tr><th>المقاس</th><th>الطول (سم)</th><th>طول القامة</th></tr></thead>
+  <tbody><tr><td>52</td><td>132</td><td>150–155</td></tr><tr><td>54</td><td>137</td><td>155–160</td></tr><tr><td>56</td><td>142</td><td>160–165</td></tr><tr><td>58</td><td>147</td><td>165–170</td></tr><tr><td>60</td><td>152</td><td>170–175</td></tr></tbody></table>
+ </div>
+</section>
+<div class="wrap"><div class="svc">
+ <div><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M2.5 6h11v10h-11zM13.5 9.5h4l3 3.2V16h-7M6.5 18.5a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6ZM17 18.5a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6Z"/></svg><b>توصيل سريع</b>3–5 أيام عمل</div><div><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M3.5 8.5h17v3.5h-17zM5 12v8.5h14V12M12 8.5v12M12 8.5S10.8 4 8.4 4C6.9 4 6.3 5.2 6.6 6.3 7.1 8.2 12 8.5 12 8.5Zm0 0s1.2-4.5 3.6-4.5c1.5 0 2.1 1.2 1.8 2.3-.5 1.9-5.4 2.2-5.4 2.2Z"/></svg><b>تغليف فاخر</b>جاهز للإهداء</div><div><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M12 3 4.5 6v5.5c0 4.6 3.2 8 7.5 9.5 4.3-1.5 7.5-4.9 7.5-9.5V6L12 3Zm-3.2 9 2.2 2.2 4.4-4.4"/></svg><b>استبدال سهل</b>خلال 7 أيام</div><div><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.43 1.32-1.97 1.37-.5.05-.98.24-3.3-.69-2.8-1.1-4.56-3.97-4.7-4.15-.13-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35h.53c.17 0 .4-.06.62.48.24.55.8 1.92.87 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.18.69-.8.88-1.08.18-.28.37-.23.62-.14.25.09 1.6.76 1.87.9.28.13.46.2.53.32.07.11.07.66-.17 1.33Z"/></svg><b>خدمة شخصية</b>عبر واتساب</div>
+</div></div>
+<section>
+ <div class="wrap">
+  <div class="head"><div><span class="lat">Kind Words</span><h2>من عميلاتنا</h2></div></div>
+  <div class="quotes">
+   <div class="q"><div class="mk">"</div><p>القماش ثقيل وما يتجعّد، والتفصيل جا على مقاسي بالضبط.</p><span>عميلة · الرياض</span></div>
+   <div class="q"><div class="mk">"</div><p>تغليف راقي جدًا، طلبتها هدية لأمي وفرحت فيها.</p><span>عميلة · الخبر</span></div>
+   <div class="q"><div class="mk">"</div><p>التواصل على الواتساب سريع وساعدوني أختار المقاس.</p><span>عميلة · مكة</span></div>
+  </div>
+  <p class="note">* آراء توضيحية لأغراض العرض فقط</p>
+ </div>
+</section>
+</main>
+<footer>
+ <div class="wrap">
+  <div class="fg">
+   <div class="fbrand"><span class="lat">Sadeem</span><p style="margin-top:.6rem">أتيليه سَديم — عبايات وأزياء محتشمة بروح سعودية معاصرة.</p><div class="soc"><a href="#" aria-label="سناب شات"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.1 2.5c2.3 0 4.5 1.3 5.4 3.4.4.9.3 2.4.2 3.6l-.02.3c.27.15.73.13 1.24-.1.44-.2 1 .1 1 .55 0 .4-.33.66-.98.92-.43.17-1.13.37-1.27.8-.08.24.05.55.36 1.1 1.13 2.05 2.66 2.9 3.66 3.07.25.04.4.27.37.5-.08.66-1.66 1.03-2.6 1.18-.12.2-.16.75-.36.98-.2.24-.7.11-1.33.04-.98-.1-1.66.02-2.42.6-.86.65-1.73 1.3-3.26 1.3h-.18c-1.53 0-2.4-.65-3.26-1.3-.76-.58-1.44-.7-2.42-.6-.63.07-1.13.2-1.33-.04-.2-.23-.24-.78-.36-.98-.94-.15-2.52-.52-2.6-1.18-.03-.23.12-.46.37-.5 1-.17 2.53-1.02 3.66-3.07.3-.55.44-.86.36-1.1-.14-.43-.84-.63-1.27-.8-.65-.26-.98-.52-.98-.92 0-.45.56-.75 1-.55.5.23.97.25 1.24.1l-.02-.3c-.1-1.2-.2-2.7.2-3.6.9-2.1 3.1-3.4 5.4-3.4h.2Z"/></svg></a><a href="#" aria-label="إنستغرام"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2Zm6.1-8.1a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM21.4 8.1c-.1-1.5-.4-2.9-1.5-4s-2.5-1.4-4-1.5C14.3 2.5 9.7 2.5 8.1 2.6c-1.5.1-2.9.4-4 1.5S2.7 6.6 2.6 8.1c-.1 1.6-.1 6.2 0 7.8.1 1.5.4 2.9 1.5 4s2.5 1.4 4 1.5c1.6.1 6.2.1 7.8 0 1.5-.1 2.9-.4 4-1.5s1.4-2.5 1.5-4c.1-1.6.1-6.2 0-7.8Zm-2.1 9.6a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.5.4s-4.3.1-5.5-.4a3.2 3.2 0 0 1-1.8-1.8c-.5-1.3-.4-4.3-.4-5.7s-.1-4.3.4-5.6a3.2 3.2 0 0 1 1.8-1.8C7.7 4.1 10.7 4.2 12 4.2s4.3-.1 5.5.4a3.2 3.2 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.6s.1 4.4-.4 5.7Z"/></svg></a><a href="#" aria-label="تيك توك"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9a6.3 6.3 0 1 0 5.4 6.2V8.6a8 8 0 0 0 4.6 1.5V6.8a4.7 4.7 0 0 1-4.6-4.8Z"/></svg></a></div></div>
+   <div><h4>تسوّقي</h4><ul><li><a href="#">وصل حديثًا</a></li><li><a href="#">عبايات المناسبات</a></li><li><a href="#">اليومية</a></li><li><a href="#">الطرح</a></li></ul></div>
+   <div><h4>خدمة العملاء</h4><ul><li><a href="#">دليل المقاسات</a></li><li><a href="#">الشحن</a></li><li><a href="#">الاستبدال والاسترجاع</a></li><li><a href="#">تواصلي معنا</a></li></ul></div>
+   <div><h4>كوني أول من يعرف</h4><p>إصدارات جديدة وعروض خاصة للمشتركات.</p><form class="sub" onsubmit="return false"><input type="email" placeholder="بريدك الإلكتروني" aria-label="البريد الإلكتروني"><button type="button">اشتراك</button></form></div>
+  </div>
+  <div class="fb"><span>© 2026 أتيليه سديم · السجل التجاري 0000000000 (مثال)</span><span class="demo-note">نموذج تجريبي من تصميم <b>AI Friend Agency</b></span></div>
+ </div>
+</footer>
+<a class="wa-float" href="https://wa.me/966500000000" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.43 1.32-1.97 1.37-.5.05-.98.24-3.3-.69-2.8-1.1-4.56-3.97-4.7-4.15-.13-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35h.53c.17 0 .4-.06.62.48.24.55.8 1.92.87 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.18.69-.8.88-1.08.18-.28.37-.23.62-.14.25.09 1.6.76 1.87.9.28.13.46.2.53.32.07.11.07.66-.17 1.33Z"/></svg> واتساب</a>
+<div class="demo-badge">نموذج تجريبي · AI Friend Agency</div>
+</body>
+</html>
