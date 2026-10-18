@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>درب لتأجير السيارات | DARB Rent — الرياض · جدة · الدمام</title>
+<meta name="description" content="درب: تأجير سيارات يومي وأسبوعي وشهري، سائق خاص، توصيل للمطار، وتأجير للشركات في الرياض وجدة والدمام. (نموذج تجريبي)">
+<meta name="theme-color" content="#0a1f44">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="demo-ribbon">نموذج تجريبي من تصميم AI Friend Agency</div>
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a href="#top" class="logo" aria-label="درب لتأجير السيارات">
+      <svg viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="12" fill="#0a1f44"/><path d="M10 31c6-1 9-5 12-9s7-8 13-9" stroke="#ffb000" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M10 31c6-1 9-5 12-9s7-8 13-9" stroke="#fff" stroke-width="1.2" stroke-dasharray="2 3" fill="none"/></svg>
+      <span><b>درب</b><small>DARB RENT</small></span>
+    </a>
+    <nav class="links" aria-label="القائمة"><a href="#fleet">الأسطول</a><a href="#services">الخدمات</a><a href="#corporate">الشركات</a><a href="#branches">الفروع</a><a href="#faq">الأسئلة</a></nav>
+    <a class="call" href="#"><span class="en">920 000 000</span><small>الرقم الموحد</small></a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="pill">✦ استلام خلال ٦٠ دقيقة داخل المدينة</span>
+      <h1>سيارتك جاهزة<br><em>قبل ما توصل.</em></h1>
+      <p>تأجير يومي وأسبوعي وشهري بأسعار واضحة، تأمين شامل، وكيلومترات مفتوحة على الباقات الشهرية — نوصلها لباب بيتك أو صالة المطار.</p>
+      <ul class="usp"><li><b>+٣٥٠</b><span>سيارة موديل ٢٠٢٥–٢٠٢٦</span></li><li><b>٢٤/٧</b><span>مساعدة على الطريق</span></li><li><b>٠ ر.س</b><span>رسوم توصيل في المدينة</span></li></ul>
+    </div>
+    <div class="hero-media"><img src="assets/hero.jpg" alt="سيارة دفع رباعي فاخرة في طريق صحراوي"></div>
+  </div>
+  <div class="wrap">
+    <form class="booker" id="book" onsubmit="return false" aria-label="احجز سيارتك">
+      <div class="f"><label for="city">مدينة الاستلام</label><select id="city"><option>الرياض</option><option>جدة</option><option>الدمام</option></select></div>
+      <div class="f"><label for="place">مكان الاستلام</label><select id="place"><option>التوصيل للمنزل</option><option>مطار الملك خالد الدولي</option><option>فرع العليا</option></select></div>
+      <div class="f"><label for="from">من</label><input type="date" id="from"></div>
+      <div class="f"><label for="to">إلى</label><input type="date" id="to"></div>
+      <div class="f"><label for="cls">الفئة</label><select id="cls"><option>اقتصادية</option><option>سيدان</option><option>SUV</option><option>فاخرة</option><option>بيك أب</option></select></div>
+      <button class="btn btn-amber" id="go">ابحث واحجز <span aria-hidden="true">←</span></button>
+      <p class="sum" id="sum" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="brandstrip" aria-label="مزايا"><div class="wrap strip"><span>تأمين شامل</span><span>بدون مبلغ تأمين على البطاقة*</span><span>تمديد الحجز من الجوال</span><span>سيارات بديلة فورًا</span><span>فاتورة ضريبية إلكترونية</span></div></section>
+
+<section class="sec" id="fleet">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow">الأسطول</span><h2>اختر السيارة المناسبة لمشوارك</h2></div>
+      <div class="filters" role="group" aria-label="تصفية الأسطول"><button class="on" data-f="all">الكل</button><button data-f="suv">SUV</button><button data-f="sedan">سيدان</button><button data-f="lux">فاخرة</button><button data-f="pick">بيك أب</button></div></div>
+    <div class="fleet">
+      <article class="car" data-c="suv"><div class="ph"><img src="assets/suv1.jpg" alt="سيارة SUV بيضاء"><span class="badge">الأكثر حجزًا</span></div><div class="cb"><small>SUV عائلية · أو ما يماثلها</small><h3>لكزس RX 350</h3><ul class="spec"><li>٥ ركاب</li><li>أوتوماتيك</li><li>٢٠٢٥</li><li>٣٠٠ كم/يوم</li></ul><div class="pr"><span><b>489</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز لكزس RX 350 من درب">احجز</a></div></div></article>
+      <article class="car" data-c="sedan"><div class="ph"><img src="assets/sedan2.jpg" alt="سيارة سيدان سوداء"></div><div class="cb"><small>سيدان · أو ما يماثلها</small><h3>أودي A3 سيدان</h3><ul class="spec"><li>٥ ركاب</li><li>أوتوماتيك</li><li>٢٠٢٥</li><li>٣٠٠ كم/يوم</li></ul><div class="pr"><span><b>259</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز سيدان من درب">احجز</a></div></div></article>
+      <article class="car" data-c="lux"><div class="ph"><img src="assets/sport.jpg" alt="سيارة رياضية فاخرة ليلًا"><span class="badge gold">فئة النخبة</span></div><div class="cb"><small>فاخرة · رياضية</small><h3>كوبيه رياضية GT</h3><ul class="spec"><li>٢ راكب</li><li>أوتوماتيك</li><li>٢٠٢٦</li><li>٢٠٠ كم/يوم</li></ul><div class="pr"><span><b>1,450</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز سيارة فاخرة من درب">احجز</a></div></div></article>
+      <article class="car" data-c="suv"><div class="ph"><img src="assets/suv2.jpg" alt="SUV بيضاء كبيرة"></div><div class="cb"><small>SUV كبيرة · ٧ مقاعد</small><h3>SUV عائلية ٧ ركاب</h3><ul class="spec"><li>٧ ركاب</li><li>دفع رباعي</li><li>٢٠٢٥</li><li>مفتوح شهريًا</li></ul><div class="pr"><span><b>549</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز SUV ٧ ركاب من درب">احجز</a></div></div></article>
+      <article class="car" data-c="sedan lux"><div class="ph"><img src="assets/sedan1.jpg" alt="سيدان سوداء فاخرة في المدينة"></div><div class="cb"><small>سيدان تنفيذية</small><h3>سيدان تنفيذية فاخرة</h3><ul class="spec"><li>٥ ركاب</li><li>أوتوماتيك</li><li>٢٠٢٦</li><li>مع سائق اختياري</li></ul><div class="pr"><span><b>890</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز سيدان تنفيذية من درب">احجز</a></div></div></article>
+      <article class="car" data-c="pick"><div class="ph"><img src="assets/pickup.jpg" alt="بيك أب في الصحراء"></div><div class="cb"><small>بيك أب · دبل قمارة</small><h3>بيك أب ٤×٤ للبر والمشاريع</h3><ul class="spec"><li>٥ ركاب</li><li>دفع رباعي</li><li>٢٠٢٥</li><li>٢٥٠ كم/يوم</li></ul><div class="pr"><span><b>319</b> ر.س / يوم</span><a class="btn btn-navy sm wa-link" href="#" data-msg="أبي أحجز بيك أب من درب">احجز</a></div></div></article>
+    </div>
+    <p class="fine">* الأسعار توضيحية لنموذج العرض وشاملة الضريبة. الموديلات المعروضة أمثلة وقد تُستبدل بما يماثلها.</p>
+  </div>
+</section>
+
+<section class="sec soft" id="services">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow">الخدمات</span><h2>أكثر من مجرد تأجير</h2></div></div>
+    <div class="svc">
+      <div class="s"><i>🗓️</i><h3>يومي · أسبوعي · شهري</h3><p>كل ما طالت المدة نزل السعر — الشهري يبدأ من ٢٬٩٠٠ ر.س.</p></div>
+      <div class="s"><i>🧑‍✈️</i><h3>سيارة مع سائق</h3><p>سائقون محترفون للمناسبات والضيوف ورجال الأعمال.</p></div>
+      <div class="s"><i>✈️</i><h3>استقبال المطار</h3><p>نسلمك السيارة في صالة الوصول بالرياض وجدة والدمام.</p></div>
+      <div class="s"><i>🛠️</i><h3>صيانة وفحص دوري</h3><p>صيانة سيارتك الخاصة مع سيارة بديلة طول فترة الصيانة.</p></div>
+      <div class="s"><i>🧽</i><h3>غسيل وتلميع متنقل</h3><p>نجي لموقعك — غسيل بخار، تلميع، وتعقيم داخلي.</p></div>
+      <div class="s"><i>🛣️</i><h3>مساعدة على الطريق</h3><p>بنشر، بطارية، أو سطحة — خط ساخن ٢٤ ساعة.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec split" id="corporate">
+  <div class="wrap split-in">
+    <div class="split-img"><img src="assets/interior.jpg" alt="مقصورة سيارة فاخرة بجلد"></div>
+    <div class="split-copy">
+      <span class="eyebrow">للشركات والجهات</span>
+      <h2>أسطول كامل لشركتك بعقد واحد</h2>
+      <p>تأجير طويل الأمد من ١٢ إلى ٣٦ شهر، صيانة وتأمين وتسجيل مشمولة، وتقارير شهرية لاستهلاك كل سيارة.</p>
+      <ul class="checks"><li>سيارات بديلة خلال ٤ ساعات</li><li>فوترة شهرية موحدة</li><li>مدير حساب مخصص</li><li>تتبع GPS اختياري</li></ul>
+      <a class="btn btn-amber wa-link" href="#" data-msg="مرحبا درب، نبي عرض سعر تأجير شركات">اطلب عرض للشركات</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec soft" id="steps">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow">كيف تحجز</span><h2>٣ خطوات وتستلم مفتاحك</h2></div></div>
+    <ol class="steps"><li><b>١</b><h3>اختر سيارتك</h3><p>من الموقع أو واتساب، وحدد المكان والوقت.</p></li><li><b>٢</b><h3>ارفع مستنداتك</h3><p>هوية/إقامة ورخصة سارية — وللزوار رخصة دولية وجواز.</p></li><li><b>٣</b><h3>استلم وانطلق</h3><p>نوصلها لك مغسولة ومعقمة بخزان ممتلئ.</p></li></ol>
+    <div class="pay"><span>طرق الدفع:</span><b>مدى</b><b>Apple Pay</b><b>Visa / Mastercard</b><b class="tabby">تابي</b><b class="tamara">تمارا</b></div>
+  </div>
+</section>
+
+<section class="sec" id="branches">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow">الفروع</span><h2>قريبين منك</h2></div></div>
+    <div class="branches">
+      <div class="b"><h3>الرياض</h3><p>فرع العليا · مطار الملك خالد الدولي</p><span>٢٤ ساعة</span></div>
+      <div class="b"><h3>جدة</h3><p>فرع التحلية · مطار الملك عبدالعزيز الدولي</p><span>٢٤ ساعة</span></div>
+      <div class="b"><h3>الدمام</h3><p>فرع الشاطئ · مطار الملك فهد الدولي</p><span>٧ ص – ١٢ م</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec soft" id="faq">
+  <div class="wrap faq">
+    <div><span class="eyebrow">الأسئلة الشائعة</span><h2>عندك سؤال؟</h2><p class="muted">ما لقيت إجابتك؟ كلمنا واتساب ونرد عليك خلال دقائق.</p></div>
+    <div class="qa">
+      <details open><summary>هل أحتاج بطاقة ائتمانية للحجز؟</summary><p>لا، تقدر تدفع بمدى أو Apple Pay. بعض الفئات الفاخرة تتطلب حجز مبلغ تأمين مسترد.</p></details>
+      <details><summary>كم عمر السائق المسموح؟</summary><p>من ٢١ سنة فما فوق مع رخصة سارية، والفئات الفاخرة من ٢٥ سنة.</p></details>
+      <details><summary>هل يشمل السعر التأمين؟</summary><p>نعم، كل الأسعار تشمل تأمين ضد الغير، والتأمين الشامل متاح بإضافة بسيطة يوميًا.</p></details>
+      <details><summary>أقدر أسلم السيارة في مدينة ثانية؟</summary><p>نعم بين الرياض وجدة والدمام برسوم تسليم واحدة توضح لك قبل التأكيد.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band"><div class="wrap cta-in"><img src="assets/highway.jpg" alt="" aria-hidden="true"><div><h2>جاهز للمشوار؟</h2><p>احجز الحين واستلم سيارتك خلال ساعة.</p></div><a class="btn btn-amber wa-link" href="#" data-msg="مرحبا درب، أبي أحجز سيارة">احجز عبر واتساب</a></div></section>
+
+<footer class="foot"><div class="wrap foot-in">
+  <div class="logo"><svg viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="12" fill="#ffb000"/><path d="M10 31c6-1 9-5 12-9s7-8 13-9" stroke="#0a1f44" stroke-width="4" fill="none" stroke-linecap="round"/></svg><span><b>درب</b><small>DARB RENT</small></span></div>
+  <div class="social"><a href="#">Instagram</a><a href="#">Snapchat</a><a href="#">X</a><a href="#">TikTok</a></div>
+  <p>© ٢٠٢٦ درب لتأجير السيارات — علامة تجارية افتراضية · نموذج تجريبي من تصميم <b>AI Friend Agency</b></p>
+</div></footer>
+<a class="wa-float wa-link" href="#" data-msg="مرحبا درب" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8.6-.1 1.9-.8 2.2-1.5s.3-1.3.2-1.5-.3-.2-.6-.3z"/></svg></a>
+<script src="assets/app.js"></script>
+</body></html>
