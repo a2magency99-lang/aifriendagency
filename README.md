@@ -42,3 +42,10 @@ so it works both at `https://USER.github.io/REPO/` and on a custom domain.
 - `demos/index.html`: CollectionPage + BreadcrumbList + ItemList of CreativeWork samples.
 - Each `demos/<niche>/index.html`: unique title/description marked as a sample, canonical, OG/Twitter with its own 1200×630 card (`assets/img/og/<niche>.jpg`), CreativeWork + BreadcrumbList JSON-LD, image width/height + lazy-loading.
 - `llms.txt` / `llms-full.txt`: plain-text summary for AI assistants. `robots.txt` allows all crawlers incl. AI bots. `sitemap.xml` lists all 22 pages with images.
+
+## Blog (Oct 18, 2026)
+- `blog/index.html` — blog listing (Blog + ItemList + BreadcrumbList JSON-LD); `blog/<slug>/index.html` — one page per article (BlogPosting + BreadcrumbList + FAQPage JSON-LD, table of contents, visible FAQ that mirrors the FAQPage schema — update both together).
+- Share cards: `assets/img/og/blog.jpg` and `assets/img/og/blog-<slug>.jpg` (1200×630, rendered from HTML with the Cairo font).
+- "المدونة" link sits in the header nav and footer of `index.html`, `demos/index.html` and every blog page; the homepage has a small "أحدث المقالات" section (`#blog`) linking 3 articles.
+- New articles: copy an article folder, change the slug, title (<60 chars), description (~150 chars), canonical/OG URLs and JSON-LD, then add the URL to `sitemap.xml`, `llms.txt`, `llms-full.txt` and the cards on `blog/index.html`.
+- Blog styles are at the end of `styles.css` under `/* ===== blog`.
