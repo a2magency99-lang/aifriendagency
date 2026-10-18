@@ -49,3 +49,4 @@ so it works both at `https://USER.github.io/REPO/` and on a custom domain.
 - "المدونة" link sits in the header nav and footer of `index.html`, `demos/index.html` and every blog page; the homepage has a small "أحدث المقالات" section (`#blog`) linking 3 articles.
 - New articles: copy an article folder, change the slug, title (<60 chars), description (~150 chars), canonical/OG URLs and JSON-LD, then add the URL to `sitemap.xml`, `llms.txt`, `llms-full.txt` and the cards on `blog/index.html`.
 - Blog styles are at the end of `styles.css` under `/* ===== blog`.
+- Batch 2 (Oct 18, 2026): 10 more articles (salla-store-design, zid-store-design, shopify-saudi-arabia, landing-page-guide, tiktok-ads-online-stores, social-media-management-stores, product-description-writing, product-photography-phone, shipping-companies-online-stores, payment-gateways-saudi); the blog now has 20. The homepage "أحدث المقالات" shows 3 of the new ones.
