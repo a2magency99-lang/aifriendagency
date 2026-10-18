@@ -15,19 +15,20 @@ Every WhatsApp button (with its pre-filled message) and the footer email update 
 The HTML also carries the same number as a no-JavaScript fallback; search `wa.me/` in `index.html` if you want the fallback changed too.
 
 ## Domain
-`index.html` uses `https://aifriendagency.sites.tab.bot/` as the canonical URL and for the
-Open Graph image (`og.png`) and JSON-LD. When the site moves to its own domain, replace that
-address in `index.html` (search for `sites.tab.bot`).
+The site is live on GitHub Pages at `https://a2magency99-lang.github.io/aifriendagency/`.
+`index.html`, `demos/index.html`, `sitemap.xml` and `robots.txt` use that address for the canonical URL,
+Open Graph image and JSON-LD. If you move to a custom domain, replace that address in those four files.
 
 ## Deploy on GitHub Pages
 Push the contents of this folder to the root of a GitHub repo (keep `.nojekyll`), then
 Settings → Pages → "Deploy from a branch" → `main` / `(root)`. No build step; all asset paths are relative,
 so it works both at `https://USER.github.io/REPO/` and on a custom domain.
-When you know the final address, replace `https://aifriendagency.sites.tab.bot/` in `index.html`
-(canonical, Open Graph and JSON-LD) with it.
+
 
 ## Structure
-- `index.html` — all content (hero, services, packages, how we work, portfolio, why us, FAQ, CTA, footer) + SEO meta + schema.org JSON-LD (ProfessionalService, FAQPage)
+- `index.html` — hero, commitments, service catalog (tabs), marketing + ads sections, packages, how we work, demo sites, comparison, FAQ, consultation form (opens WhatsApp prefilled; no backend), footer + SEO meta + JSON-LD (ProfessionalService, FAQPage)
+- `demos/index.html` — all demo sites with filter chips; `demos/<niche>/` — each demo
+- `sitemap.xml`, `robots.txt`
 - `styles.css` — design (Cairo font, self-hosted in `assets/fonts/`)
 - `script.js` — config + small enhancements
 - `assets/img/` — logo (SVG), demo thumbnails (WebP)

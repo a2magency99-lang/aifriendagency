@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a2magency99-lang.github.io/aifriendagency/sitemap.xml
