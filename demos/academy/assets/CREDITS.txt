@@ -1,0 +1,12 @@
+Photos: Pexels (free to use under the Pexels License, https://www.pexels.com/license/), downloaded and compressed locally.
+
+hero.jpg  https://www.pexels.com/photo/32760882/
+c1.jpg  https://www.pexels.com/photo/34804002/
+c2.jpg  https://www.pexels.com/photo/30499766/
+c3.jpg  https://www.pexels.com/photo/251225/
+c4.jpg  https://www.pexels.com/photo/5185081/
+c5.jpg  https://www.pexels.com/photo/38037790/
+c6.jpg  https://www.pexels.com/photo/4439901/
+books.jpg  https://www.pexels.com/photo/5984591/
+
+Fonts: Google Fonts (SIL Open Font License), self-hosted in assets/fonts/.
