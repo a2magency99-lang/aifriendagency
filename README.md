@@ -8,7 +8,7 @@ Open `script.js` — the `CONFIG` block at the top:
 ```js
 const CONFIG = {
   WHATSAPP_NUMBER: "201552759343",          // digits only, international format
-  CONTACT_EMAIL:   "hello@aifriendagency.com" // placeholder
+  CONTACT_EMAIL:   "aifriend411@gmail.com" // placeholder
 };
 ```
 Every WhatsApp button (with its pre-filled message) and the footer email update from there.
