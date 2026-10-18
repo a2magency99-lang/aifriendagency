@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بنيان الرواسي للمقاولات | Bunyan Al-Rawasi Contracting — بناء وتشطيب في السعودية</title>
+<meta name="description" content="بنيان الرواسي للمقاولات العامة: بناء فلل وعمائر، مشاريع تجارية، تشطيبات وترميم في الرياض وجدة والمنطقة الشرقية. اطلب عرض سعر عبر واتساب. نموذج تجريبي من تصميم AI Friend Agency.">
+<meta name="theme-color" content="#0e1a2b">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0e1a2b;--navy2:#13233a;--steel:#1d3150;--amber:#f5a524;--amber2:#ffbf47;--concrete:#eef0f2;--ink:#14202f;--mute:#6b7685;--line:#dfe3e8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.7;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font-family:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{width:min(1220px,100% - 40px);margin-inline:auto}
+.top{background:var(--navy);color:#b9c3d1;font-size:.82rem}
+.top .wrap{display:flex;justify-content:space-between;gap:1rem;padding:.45rem 0;flex-wrap:wrap}
+.top span{display:inline-flex;gap:.35rem;align-items:center}
+.top b{color:var(--amber)}
+header{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px;gap:1rem}
+.logo{display:flex;align-items:center;gap:.7rem}
+.logo svg{width:46px;height:46px;flex:none}
+.logo .t{line-height:1.15}
+.logo b{display:block;font-weight:900;font-size:1.2rem;color:var(--navy)}
+.logo small{font-size:.66rem;letter-spacing:.14em;color:var(--mute);font-weight:700}
+nav ul{display:flex;gap:1.8rem;list-style:none;font-weight:700;font-size:.95rem}
+nav a{position:relative;padding:.3rem 0}
+nav a:hover{color:#c9830a}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--amber);color:var(--navy);font-weight:800;padding:.85rem 1.5rem;border:0;cursor:pointer;transition:.2s;clip-path:polygon(0 0,100% 0,100% 70%,92% 100%,0 100%)}
+.btn:hover{background:var(--amber2)}
+.btn.line{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.6);clip-path:none}
+.btn.line:hover{background:rgba(255,255,255,.1)}
+.btn svg{width:20px;height:20px}
+.burger{display:none;background:none;border:2px solid var(--line);width:44px;height:44px;cursor:pointer}
+/* hero */
+.hero{position:relative;color:#fff;min-height:640px;display:flex;flex-direction:column;justify-content:flex-end;background:var(--navy)}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero::before,.hero::after{z-index:1}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(14,26,43,.95) 0%,rgba(14,26,43,.75) 42%,rgba(14,26,43,.15) 75%)}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(270deg,#000 30%,transparent 65%);-webkit-mask-image:linear-gradient(270deg,#000 30%,transparent 65%)}
+.hero .wrap{position:relative;z-index:2;padding:5rem 0 3rem}
+.kick{display:inline-flex;align-items:center;gap:.6rem;color:var(--amber);font-weight:800;font-size:.95rem}
+.kick::before{content:"";width:34px;height:3px;background:var(--amber)}
+.hero h1{font-weight:900;font-size:clamp(2.3rem,6vw,4.3rem);line-height:1.18;margin:.9rem 0 1rem;max-width:640px}
+.hero h1 span{color:var(--amber)}
+.hero p{max-width:520px;color:#cfd7e2;font-size:1.1rem}
+.hero .ctas{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
+.stats{position:relative;z-index:2;background:rgba(14,26,43,.92);border-top:3px solid var(--amber);backdrop-filter:blur(6px)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:1.4rem 1rem;border-inline-start:1px solid rgba(255,255,255,.1)}
+.stat:first-child{border-inline-start:0}
+.stat b{display:block;font-size:2.1rem;font-weight:900;color:#fff;line-height:1.1}
+.stat b i{font-style:normal;color:var(--amber)}
+.stat span{color:#a9b4c3;font-size:.9rem;font-weight:600}
+section{padding:5.5rem 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;margin-bottom:2.8rem;flex-wrap:wrap}
+.sh h2{font-weight:900;font-size:clamp(1.8rem,4.4vw,2.7rem);line-height:1.25;color:var(--navy)}
+.sh p{color:var(--mute);max-width:430px}
+.kick.d{color:#c9830a}.kick.d::before{background:#c9830a}
+/* services */
+.svc{background:var(--concrete)}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--line);border:2px solid var(--line)}
+.sv{background:#fff;padding:2.2rem 1.8rem;position:relative;transition:.25s;display:flex;flex-direction:column}
+.sv:hover{background:var(--navy);color:#fff}
+.sv:hover p{color:#b9c3d1}
+.sv .no{position:absolute;top:1.2rem;left:1.4rem;font-size:3rem;font-weight:900;color:transparent;-webkit-text-stroke:1.5px #cfd5dd;line-height:1}
+.sv:hover .no{-webkit-text-stroke-color:rgba(245,165,36,.5)}
+.si{width:58px;height:58px;background:var(--amber);color:var(--navy);display:grid;place-items:center;margin-bottom:1.2rem}
+.si svg{width:30px;height:30px}
+.sv h3{font-weight:800;font-size:1.2rem;margin-bottom:.4rem}
+.sv p{color:var(--mute);font-size:.95rem;flex:1}
+.more{margin-top:1rem;font-weight:800;color:#c9830a;font-size:.9rem}
+.sv:hover .more{color:var(--amber)}
+/* about */
+.about{display:grid;grid-template-columns:1fr 1.05fr;gap:4rem;align-items:center}
+.ab-img{position:relative}
+.ab-img img{width:100%;aspect-ratio:4/4.4;object-fit:cover}
+.ab-img .badge{position:absolute;bottom:-26px;right:-26px;background:var(--amber);color:var(--navy);padding:1.4rem 1.6rem;font-weight:900;line-height:1.2;font-size:1.05rem}
+.ab-img .badge b{display:block;font-size:2.6rem}
+.ab-img::before{content:"";position:absolute;top:-18px;left:-18px;width:55%;height:55%;border:3px solid var(--amber);z-index:-1}
+.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.4rem;margin:1.6rem 0 2rem}
+.checks li{display:flex;gap:.6rem;font-weight:700}
+.checks li::before{content:"";flex:none;width:22px;height:22px;margin-top:3px;background:var(--navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f5a524' stroke-width='3'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E") center/16px no-repeat}
+/* projects */
+.prj{background:var(--navy);color:#fff}
+.prj .sh h2{color:#fff}
+.prj .sh p{color:#a9b4c3}
+.filt{display:flex;gap:.4rem;flex-wrap:wrap}
+.fb{background:transparent;border:1px solid rgba(255,255,255,.25);color:#dfe5ee;padding:.45rem 1.1rem;font-weight:700;cursor:pointer}
+.fb[aria-pressed="true"]{background:var(--amber);border-color:var(--amber);color:var(--navy)}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;gap:12px}
+.pj{position:relative;overflow:hidden;cursor:zoom-in;background:#0a1320}
+.pj.big{grid-column:span 2;grid-row:span 2}
+.pj img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.pj:hover img{transform:scale(1.06)}
+.pj figcaption{position:absolute;inset:auto 0 0 0;padding:1rem 1.1rem;background:linear-gradient(0deg,rgba(10,19,32,.95),transparent);display:flex;flex-direction:column}
+.pj figcaption span{align-self:flex-start;background:var(--amber);color:var(--navy);font-size:.72rem;font-weight:800;padding:0 .5rem;margin-bottom:.3rem}
+.pj figcaption b{font-weight:800}
+.pj figcaption small{color:#a9b4c3}
+.pj.hide{display:none}
+.lb{position:fixed;inset:0;background:rgba(5,10,18,.92);z-index:80;display:none;align-items:center;justify-content:center;padding:20px;flex-direction:column;gap:1rem}
+.lb.on{display:flex}
+.lb img{max-height:78vh;max-width:min(1100px,100%);object-fit:contain}
+.lb p{color:#fff;font-weight:700}
+.lb button{position:absolute;top:16px;left:16px;background:var(--amber);border:0;width:44px;height:44px;font-size:1.4rem;cursor:pointer}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;top:30px;right:10%;left:10%;height:2px;background:repeating-linear-gradient(90deg,var(--amber) 0 10px,transparent 10px 18px)}
+.st{text-align:center;padding:0 .8rem;position:relative}
+.st i{width:60px;height:60px;margin:0 auto 1rem;display:grid;place-items:center;background:var(--navy);color:var(--amber);font-style:normal;font-weight:900;font-size:1.3rem;border:4px solid #fff;outline:2px solid var(--navy)}
+.st b{display:block;font-weight:800;color:var(--navy);margin-bottom:.3rem}
+.st span{font-size:.88rem;color:var(--mute)}
+/* certs */
+.certs{background:var(--concrete)}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cert{background:#fff;border:2px dashed #b8c1cc;padding:1.5rem;display:flex;gap:1rem;align-items:center}
+.cert .ci{flex:none;width:56px;height:56px;border-radius:50%;border:2px solid var(--navy);display:grid;place-items:center;color:var(--navy)}
+.cert .ci svg{width:28px;height:28px}
+.cert b{display:block;font-weight:800;color:var(--navy)}
+.cert span{font-size:.88rem;color:var(--mute);direction:rtl}
+.cert code{font-family:inherit;background:#fff6e5;color:#9a6200;padding:0 .4rem;font-weight:800}
+.ph{text-align:center;font-size:.82rem;color:var(--mute);margin-top:1.2rem}
+/* quote */
+.quote{display:grid;grid-template-columns:1fr 1.3fr;gap:0;box-shadow:0 30px 60px rgba(14,26,43,.14)}
+.qinfo{background:var(--navy);color:#fff;padding:3rem 2.4rem;position:relative;overflow:hidden}
+.qinfo::after{content:"";position:absolute;inset:auto -40px -40px auto;width:200px;height:200px;border:30px solid rgba(245,165,36,.15)}
+.qinfo h2{font-weight:900;font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.3;margin:.6rem 0 1rem}
+.qinfo p{color:#b9c3d1}
+.qinfo ul{list-style:none;margin-top:2rem;display:grid;gap:1.1rem}
+.qinfo li{display:flex;gap:.8rem;align-items:center}
+.qinfo li i{flex:none;width:44px;height:44px;background:rgba(245,165,36,.15);color:var(--amber);display:grid;place-items:center;font-style:normal}
+.qinfo li i svg{width:22px;height:22px}
+.qinfo li small{display:block;color:#8d9aab;font-size:.8rem}
+form.q{background:#fff;padding:2.6rem 2.4rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.2rem}
+form.q label{font-weight:700;font-size:.9rem;display:flex;flex-direction:column;gap:.35rem}
+form.q .full{grid-column:1/-1}
+form.q input,form.q select,form.q textarea{border:1.5px solid var(--line);background:#fafbfc;padding:.75rem .9rem;font-size:1rem;color:var(--ink);border-radius:0;width:100%}
+form.q input:focus,form.q select:focus,form.q textarea:focus{border-color:var(--amber);outline:none;background:#fff}
+form.q textarea{min-height:96px;resize:vertical}
+form.q .btn{grid-column:1/-1;padding:1rem;font-size:1.05rem}
+form.q .hint{grid-column:1/-1;font-size:.8rem;color:var(--mute);text-align:center}
+footer{background:#0a1320;color:#93a0b2;padding:3.5rem 0 6rem;font-size:.92rem}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:2rem}
+footer h4{color:#fff;font-weight:800;margin-bottom:.8rem}
+footer ul{list-style:none;display:grid;gap:.4rem}
+footer a:hover{color:var(--amber)}
+.soc{display:flex;gap:.4rem;margin-top:1rem;flex-wrap:wrap}
+.soc a{border:1px solid rgba(255,255,255,.15);padding:.25rem .7rem;font-size:.8rem}
+.fbot{border-top:1px solid rgba(255,255,255,.08);margin-top:2.5rem;padding-top:1.2rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.82rem}
+.agency{color:#6f7d90}
+.waf{position:fixed;bottom:18px;left:18px;z-index:50;background:#25d366;color:#fff;display:flex;align-items:center;gap:.5rem;padding:.75rem 1.1rem;font-weight:800;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.waf svg{width:22px;height:22px}
+@media (max-width:1020px){
+ nav ul{display:none}
+ nav.open ul{display:flex;flex-direction:column;position:absolute;top:78px;inset-inline:0;background:#fff;padding:1.2rem 20px;gap:.9rem;border-bottom:1px solid var(--line);box-shadow:0 20px 30px rgba(0,0,0,.08)}
+ .burger{display:grid;place-items:center}
+ .nav .btn.hd{display:none}
+ .sgrid{grid-template-columns:1fr 1fr}
+ .about,.quote{grid-template-columns:1fr}
+ .pgrid{grid-template-columns:1fr 1fr}
+ .steps{grid-template-columns:1fr;gap:1.4rem}
+ .steps::before{display:none}
+ .st{display:grid;grid-template-columns:60px 1fr;gap:0 1rem;text-align:start;align-items:center}
+ .st i{margin:0;grid-row:span 2}
+ .cgrid{grid-template-columns:1fr 1fr}
+ .fg{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+ .top .wrap{justify-content:center}
+ .top .hide-m{display:none}
+ .nav{height:68px}
+ .logo b{font-size:1.02rem} .logo svg{width:40px;height:40px} .logo small{font-size:.58rem}
+ nav.open ul{top:68px}
+ .hero{min-height:auto}
+ .hero::before{background:linear-gradient(0deg,rgba(14,26,43,.97) 30%,rgba(14,26,43,.55) 70%,rgba(14,26,43,.25))}
+ .hero .wrap{padding:9rem 0 2rem}
+ .hero p{font-size:1rem}
+ .stats .wrap{grid-template-columns:1fr 1fr}
+ .stat{padding:1rem .6rem}
+ .stat:nth-child(3){border-inline-start:0}
+ .stat:nth-child(n+3){border-top:1px solid rgba(255,255,255,.1)}
+ .stat b{font-size:1.6rem}
+ section{padding:4rem 0}
+ .sgrid{grid-template-columns:1fr}
+ .sv{padding:1.8rem 1.4rem}
+ .checks{grid-template-columns:1fr}
+ .ab-img .badge{right:10px;bottom:-20px;padding:1rem 1.2rem}
+ .ab-img::before{display:none}
+ .pgrid{grid-auto-rows:170px;gap:8px}
+ .pj figcaption{padding:.6rem .7rem}
+ .pj figcaption b{font-size:.88rem}
+ .pj figcaption small{font-size:.75rem}
+ .cgrid{grid-template-columns:1fr}
+ .qinfo{padding:2.2rem 1.4rem}
+ form.q{grid-template-columns:1fr;padding:1.8rem 1.4rem}
+ .fg{grid-template-columns:1fr}
+ .waf span{display:none}
+ .waf{padding:.85rem;border-radius:50%}
+}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>📞 <b>920000000</b> (رقم توضيحي)</span><span class="hide-m">✉ info@bunyan.example</span><span class="hide-m">السبت – الخميس · 8 ص – 6 م</span></div></div>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#" aria-label="بنيان الرواسي للمقاولات">
+   <svg viewBox="0 0 46 46" aria-hidden="true"><rect width="46" height="46" fill="#0e1a2b"/><path d="M9 37V20l9-6v23M20 37V10l9-5v32M31 37V18l6 3v16" fill="none" stroke="#f5a524" stroke-width="2.6"/><path d="M6 37h34" stroke="#fff" stroke-width="2.6"/></svg>
+   <span class="t"><b>بنيان الرواسي</b><small>BUNYAN AL-RAWASI · CONTRACTING</small></span>
+  </a>
+  <nav id="nav"><ul><li><a href="#services">خدماتنا</a></li><li><a href="#about">من نحن</a></li><li><a href="#projects">مشاريعنا</a></li><li><a href="#certs">الاعتمادات</a></li><li><a href="#quote">تواصل</a></li></ul></nav>
+  <a class="btn hd" href="#quote">اطلب عرض سعر</a>
+  <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false"><svg viewBox="0 0 24 24" width="22" fill="none" stroke="#0e1a2b" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0">
+ <img src="assets/hero.jpg" alt="فيلا حديثة مضاءة ليلًا" fetchpriority="high">
+ <div class="wrap">
+  <span class="kick">مقاولات عامة · تصنيف معتمد</span>
+  <h1>نبني رؤيتك<br><span>بإتقان يدوم</span> لأجيال</h1>
+  <p>من المخطط إلى تسليم المفتاح: فلل وعمائر ومشاريع تجارية وتشطيبات فاخرة في الرياض وجدة والمنطقة الشرقية، بإشراف هندسي والتزام بكود البناء السعودي.</p>
+  <div class="ctas">
+   <a class="btn" href="#quote">اطلب عرض سعر مجاني</a>
+   <a class="btn line" href="#projects">شاهد مشاريعنا</a>
+  </div>
+ </div>
+ <div class="stats"><div class="wrap">
+  <div class="stat"><b>15<i>+</i></b><span>سنة خبرة</span></div>
+  <div class="stat"><b>120<i>+</i></b><span>مشروع منجز</span></div>
+  <div class="stat"><b>40<i>+</i></b><span>مهندس ومشرف</span></div>
+  <div class="stat"><b>6</b><span>مدن في المملكة</span></div>
+ </div></div>
+</section>
+
+<section class="svc" id="services">
+ <div class="wrap">
+  <div class="sh"><div><span class="kick d">خدماتنا</span><h2>حلول بناء متكاملة<br>تحت سقف واحد</h2></div><p>فريق واحد يتولى مشروعك من الدراسة والتصميم حتى التسليم والضمان، بعقد واضح وجدول زمني ملزم.</p></div>
+  <div class="sgrid"><article class="sv"><span class="no">01</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h24M7 28V12l9-6 9 6v16"/><path d="M13 28v-8h6v8"/></svg></div><h3>بناء الفلل والعمائر</h3><p>بناء عظم وتسليم مفتاح للفلل السكنية والعمائر وفق المخططات المعتمدة.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article><article class="sv"><span class="no">02</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M5 27h22M8 27V9h10v18M18 15h6v12"/><path d="M11 13h4M11 17h4M11 21h4"/></svg></div><h3>المشاريع التجارية</h3><p>معارض، مكاتب، ومجمّعات تجارية بجداول زمنية واضحة وإشراف هندسي.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article><article class="sv"><span class="no">03</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6 26 20 12l4 4-14 14H6Z"/><path d="m18 14 4 4M22 6l4 4-2 2-4-4Z"/></svg></div><h3>التشطيبات الداخلية</h3><p>لياسة، دهانات، جبس، أرضيات ورخام، وتشطيبات فاخرة حسب الذوق.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article><article class="sv"><span class="no">04</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 26h24"/><path d="M8 26V6h16v20"/><path d="M12 10h8v6h-8z"/><path d="M14 22h4"/></svg></div><h3>التصميم والإشراف</h3><p>تصميم معماري وإنشائي، واستخراج الرخص، وإشراف هندسي كامل.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article><article class="sv"><span class="no">05</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M16 4v6M16 22v6M4 16h6M22 16h6"/><circle cx="16" cy="16" r="6"/></svg></div><h3>الترميم والتأهيل</h3><p>تقوية الهياكل، معالجة التشققات والعزل، وتجديد المباني القائمة.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article><article class="sv"><span class="no">06</span><div class="si"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6 12h20v14H6z"/><path d="M10 12V8a6 6 0 0 1 12 0v4"/><path d="M16 17v4"/></svg></div><h3>العزل والأنظمة</h3><p>عزل مائي وحراري، أنظمة كهرباء وسباكة وتكييف مركزي.</p><a href="#quote" class="more">اطلب عرض سعر ←</a></article></div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="wrap about">
+  <div class="ab-img"><img src="assets/crane.jpg" alt="رافعة في موقع بناء" loading="lazy"><div class="badge"><b>10</b>سنوات ضمان<br>على الهيكل</div></div>
+  <div>
+   <span class="kick d">لماذا بنيان الرواسي؟</span>
+   <h2 style="font-weight:900;font-size:clamp(1.8rem,4.4vw,2.6rem);line-height:1.3;color:var(--navy);margin:.6rem 0 1rem">نلتزم بالجودة والموعد<br>قبل أن نلتزم بالسعر</h2>
+   <p style="color:var(--mute)">نؤمن أن البيت استثمار عمر. لذلك نعمل بمواد معتمدة، وتقارير أسبوعية بالصور، ومهندس مسؤول عن موقعك من أول يوم.</p>
+   <ul class="checks"><li>عقود واضحة بجدول دفعات مرحلي</li><li>تقارير أسبوعية بالصور والفيديو</li><li>مواد معتمدة من موردين موثوقين</li><li>التزام بكود البناء السعودي</li><li>ضمان على الهيكل والعزل</li><li>فريق سلامة في كل موقع</li></ul>
+   <a class="btn" href="#quote">احجز زيارة موقع</a>
+  </div>
+ </div>
+</section>
+
+<section class="prj" id="projects">
+ <div class="wrap">
+  <div class="sh"><div><span class="kick">معرض المشاريع</span><h2>أعمال نفخر بها</h2></div>
+   <div class="filt" role="group" aria-label="تصفية المشاريع"><button class="fb" aria-pressed="true" data-c="all">الكل</button><button class="fb" aria-pressed="false" data-c="res">سكني</button><button class="fb" aria-pressed="false" data-c="com">تجاري</button><button class="fb" aria-pressed="false" data-c="fin">تشطيبات</button></div>
+  </div>
+  <div class="pgrid" id="pgrid"><figure class="pj big" data-c="res"><img src="assets/villa1.jpg" alt="فيلا حي النرجس" loading="lazy"><figcaption><span>سكني</span><b>فيلا حي النرجس</b><small>الرياض · 2025</small></figcaption></figure><figure class="pj " data-c="fin"><img src="assets/interior1.jpg" alt="تشطيب صالة ومجلس" loading="lazy"><figcaption><span>تشطيبات</span><b>تشطيب صالة ومجلس</b><small>الرياض · 2025</small></figcaption></figure><figure class="pj " data-c="com"><img src="assets/tower.jpg" alt="برج مكاتب إداري" loading="lazy"><figcaption><span>تجاري</span><b>برج مكاتب إداري</b><small>جدة · 2024</small></figcaption></figure><figure class="pj " data-c="res"><img src="assets/villa2.jpg" alt="فيلا دورين وملحق" loading="lazy"><figcaption><span>سكني</span><b>فيلا دورين وملحق</b><small>الخبر · 2024</small></figcaption></figure><figure class="pj " data-c="fin"><img src="assets/dining.jpg" alt="تشطيب داخلي فاخر" loading="lazy"><figcaption><span>تشطيبات</span><b>تشطيب داخلي فاخر</b><small>الرياض · 2025</small></figcaption></figure><figure class="pj " data-c="com"><img src="assets/scaffold.jpg" alt="مجمّع تجاري – قيد التنفيذ" loading="lazy"><figcaption><span>تجاري</span><b>مجمّع تجاري – قيد التنفيذ</b><small>الدمام · 2026</small></figcaption></figure><figure class="pj " data-c="res"><img src="assets/classic.jpg" alt="قصر بطابع كلاسيكي" loading="lazy"><figcaption><span>سكني</span><b>قصر بطابع كلاسيكي</b><small>الرياض · 2023</small></figcaption></figure><figure class="pj " data-c="fin"><img src="assets/interior2.jpg" alt="تجديد شقة سكنية" loading="lazy"><figcaption><span>تشطيبات</span><b>تجديد شقة سكنية</b><small>جدة · 2025</small></figcaption></figure><figure class="pj " data-c="res"><img src="assets/villa3.jpg" alt="فيلا عصرية بواجهة حجرية" loading="lazy"><figcaption><span>سكني</span><b>فيلا عصرية بواجهة حجرية</b><small>الرياض · 2024</small></figcaption></figure></div>
+  <p style="color:#6f7d90;font-size:.8rem;margin-top:1rem">* صور ومشاريع توضيحية ضمن النموذج التجريبي.</p>
+ </div>
+</section>
+
+<section id="process">
+ <div class="wrap">
+  <div class="sh" style="justify-content:center;text-align:center"><div><span class="kick d">آلية العمل</span><h2>5 خطوات من الفكرة إلى المفتاح</h2></div></div>
+  <div class="steps">
+   <div class="st"><i>1</i><b>الاستشارة والزيارة</b><span>نزور الموقع ونفهم احتياجك وميزانيتك</span></div>
+   <div class="st"><i>2</i><b>التصميم والتسعير</b><span>مخططات وجدول كميات وعرض سعر مفصّل</span></div>
+   <div class="st"><i>3</i><b>الرخص والعقد</b><span>نستخرج التراخيص ونوقّع عقدًا بجدول زمني</span></div>
+   <div class="st"><i>4</i><b>التنفيذ والإشراف</b><span>تنفيذ بمراحل واضحة وتقارير أسبوعية</span></div>
+   <div class="st"><i>5</i><b>التسليم والضمان</b><span>استلام نهائي مع شهادات الضمان</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="certs" id="certs">
+ <div class="wrap">
+  <div class="sh"><div><span class="kick d">الاعتمادات والتراخيص</span><h2>شركة نظامية بالكامل</h2></div><p>تظهر هنا شهادات الشركة الفعلية وأرقامها عند اعتماد الموقع.</p></div>
+  <div class="cgrid">
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 3h14v18H5z"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></span><div><b>السجل التجاري</b><span>رقم: <code>0000000000</code></span></div></div>
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 3 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9Z"/></svg></span><div><b>تصنيف المقاولين</b><span>المجال: مباني · الدرجة: <code>—</code></span></div></div>
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/></svg></span><div><b>عضوية الهيئة السعودية للمقاولين</b><span>رقم العضوية: <code>000000</code></span></div></div>
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span><div><b>شهادة الجودة ISO 9001</b><span>رقم الشهادة: <code>ISO-0000</code></span></div></div>
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16v12H4z"/><path d="M4 11h16M8 15h3"/></svg></span><div><b>شهادة الزكاة والضريبة</b><span>الرقم الضريبي: <code>300000000000003</code></span></div></div>
+   <div class="cert"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6Z"/></svg></span><div><b>شهادة التأمينات الاجتماعية</b><span>رقم المنشأة: <code>00000000</code></span></div></div>
+  </div>
+  <p class="ph">* أماكن مخصصة للشهادات (Placeholders) — الأرقام أعلاه ليست حقيقية.</p>
+ </div>
+</section>
+
+<section id="quote">
+ <div class="wrap quote">
+  <div class="qinfo">
+   <span class="kick">طلب عرض سعر</span>
+   <h2>احصل على عرض سعر مفصّل خلال 48 ساعة</h2>
+   <p>عبّئ البيانات ويوصلك طلبك مباشرة على واتساب فريق المبيعات، ونحدد معك موعد زيارة الموقع.</p>
+   <ul>
+    <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1Z"/></svg></i><span><small>الرقم الموحد</small>920000000</span></li>
+    <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></i><span><small>المقر الرئيسي</small>الرياض، طريق الملك فهد (عنوان توضيحي)</span></li>
+    <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><span><small>ساعات العمل</small>السبت – الخميس · 8 ص – 6 م</span></li>
+   </ul>
+  </div>
+  <form class="q" id="qform">
+   <label>الاسم الكامل<input name="name" required placeholder="مثال: عبدالله محمد"></label>
+   <label>رقم الجوال<input name="phone" required inputmode="tel" placeholder="05xxxxxxxx"></label>
+   <label>المدينة<select name="city"><option>الرياض</option><option>جدة</option><option>الدمام / الخبر</option><option>مكة المكرمة</option><option>المدينة المنورة</option><option>أخرى</option></select></label>
+   <label>نوع المشروع<select name="type"><option>بناء فيلا</option><option>عمارة سكنية</option><option>مشروع تجاري</option><option>تشطيبات داخلية</option><option>ترميم</option><option>تصميم وإشراف</option></select></label>
+   <label>المساحة التقريبية (م²)<input name="area" inputmode="numeric" placeholder="مثال: 450"></label>
+   <label>الميزانية المتوقعة<select name="budget"><option>أقل من 500 ألف ر.س</option><option>500 ألف – 1.5 مليون ر.س</option><option>1.5 – 3 مليون ر.س</option><option>أكثر من 3 مليون ر.س</option></select></label>
+   <label class="full">تفاصيل إضافية<textarea name="notes" placeholder="عدد الأدوار، حالة الأرض، موعد البدء المتوقع…"></textarea></label>
+   <button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg> إرسال الطلب عبر واتساب</button>
+   <p class="hint">بالضغط على الزر يُفتح واتساب برسالة جاهزة تحتوي بياناتك — لا تُحفظ أي بيانات على الموقع.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="fg">
+   <div><div class="logo"><svg viewBox="0 0 46 46" aria-hidden="true" style="width:40px;height:40px"><rect width="46" height="46" fill="#13233a"/><path d="M9 37V20l9-6v23M20 37V10l9-5v32M31 37V18l6 3v16" fill="none" stroke="#f5a524" stroke-width="2.6"/><path d="M6 37h34" stroke="#fff" stroke-width="2.6"/></svg><span class="t"><b style="color:#fff">بنيان الرواسي للمقاولات</b><small>BUNYAN AL-RAWASI</small></span></div><p style="margin-top:1rem;max-width:310px">مقاولات عامة، بناء وتشطيب وترميم في مختلف مناطق المملكة.</p><div class="soc"><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="#">Snapchat</a><a href="#">X</a></div></div>
+   <div><h4>الخدمات</h4><ul><li><a href="#services">بناء الفلل والعمائر</a></li><li><a href="#services">المشاريع التجارية</a></li><li><a href="#services">التشطيبات</a></li><li><a href="#services">الترميم</a></li></ul></div>
+   <div><h4>الشركة</h4><ul><li><a href="#about">من نحن</a></li><li><a href="#projects">المشاريع</a></li><li><a href="#certs">الاعتمادات</a></li><li><a href="#quote">طلب عرض سعر</a></li></ul></div>
+   <div><h4>تواصل</h4><ul><li>الرقم الموحد: 920000000</li><li><a href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA" target="_blank" rel="noopener">واتساب: 0500000000</a></li><li>info@bunyan.example</li><li>س.ت: 0000000000</li></ul></div>
+  </div>
+  <div class="fbot"><span>© 2026 بنيان الرواسي للمقاولات — اسم تجاري افتراضي.</span><span class="agency">نموذج تجريبي من تصميم AI Friend Agency</span></div>
+ </div>
+</footer>
+<a class="waf" href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg><span>تواصل واتساب</span></a>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="عرض الصورة"><button id="lbx" aria-label="إغلاق">×</button><img id="lbi" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><p id="lbt"></p></div>
+<script>
+(function(){
+ var fbs=document.querySelectorAll('.fb'),pjs=document.querySelectorAll('.pj');
+ fbs.forEach(function(b){b.addEventListener('click',function(){fbs.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');var c=b.dataset.c;pjs.forEach(function(p){p.classList.toggle('hide',c!=='all'&&p.dataset.c!==c);p.classList.toggle('big',c==='all'&&p===pjs[0])})})});
+ var lb=document.getElementById('lb'),lbi=document.getElementById('lbi'),lbt=document.getElementById('lbt');
+ pjs.forEach(function(p){p.addEventListener('click',function(){var i=p.querySelector('img');lbi.src=i.src;lbi.alt=i.alt;lbt.textContent=p.querySelector('b').textContent+' — '+p.querySelector('small').textContent;lb.classList.add('on')})});
+ function cl(){lb.classList.remove('on')}
+ document.getElementById('lbx').addEventListener('click',cl);lb.addEventListener('click',function(e){if(e.target===lb)cl()});document.addEventListener('keydown',function(e){if(e.key==='Escape')cl()});
+ var nav=document.getElementById('nav'),bg=document.getElementById('burger');
+ bg.addEventListener('click',function(){var o=nav.classList.toggle('open');bg.setAttribute('aria-expanded',o)});
+ nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');bg.setAttribute('aria-expanded','false')})});
+ document.getElementById('qform').addEventListener('submit',function(e){e.preventDefault();var f=e.target,v=function(n){return f.elements[n].value.trim()};
+  var msg='طلب عرض سعر — بنيان الرواسي\nالاسم: '+v('name')+'\nالجوال: '+v('phone')+'\nالمدينة: '+v('city')+'\nنوع المشروع: '+v('type')+'\nالمساحة: '+(v('area')||'—')+' م²\nالميزانية: '+v('budget')+'\nتفاصيل: '+(v('notes')||'—');
+  window.open('https://wa.me/966500000000?text='+encodeURIComponent(msg),'_blank','noopener')});
+})();
+</script>
+</body>
+</html>
